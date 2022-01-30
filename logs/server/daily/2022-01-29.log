@@ -1,0 +1,376 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T03:47:42.232Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T03:47:42.337Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" with value "findjassi121212@gmail.com" fails to match the required pattern: /^[a-zA-z]{2}([+-_ .][a-zA-Z0-9]+)[@][a-zA-z0-9]+(.[a-z]{2,3})*$/ 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T04:04:51.601Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T04:05:07.978Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T04:05:08.028Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" with value "findjassi121212@gmail.com" fails to match the required pattern: /^[a-zA-z]{2}([+-_ .][a-zA-Z0-9]+)[@][a-zA-z0-9]+(.[a-z]{2,3})*$/ 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T04:05:11.203Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T04:30:31.839Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T04:30:31.884Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T04:38:28.706Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T04:38:28.751Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" with value "123456@Aa" fails to match the required pattern: /^(?=.[a-z])(?=.[A-Z])(?=.[0-9])(?=.[!@#$%^&*])(?=.{8,})/ 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T04:38:44.313Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" with value "123456Aa" fails to match the required pattern: /^(?=.[a-z])(?=.[A-Z])(?=.[0-9])(?=.[!@#$%^&*])(?=.{8,})/ 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T04:38:53.122Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T04:39:22.169Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T04:39:22.241Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" with value "Jassi@1234" fails to match the required pattern: /^(?=.[a-z])(?=.[A-Z])(?=.[0-9])(?=.[!@#$%^&*])(?=.{8,})/ 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T04:39:42.017Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" with value "jassi@1234" fails to match the required pattern: /^(?=.[a-z])(?=.[A-Z])(?=.[0-9])(?=.[!@#$%^&*])(?=.{8,})/ 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T04:39:53.006Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T04:40:14.583Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T04:40:14.637Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" with value "jassi@1234" fails to match the required pattern: /^(?=.[a-z])(?=.[A-Z])(?=.[0-9])(?=.[!@#$%^&*])(?=.{8,})/ 
+    url - /api/v1/users/admin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T04:40:21.320Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" with value "Aads@1234" fails to match the required pattern: /^(?=.[a-z])(?=.[A-Z])(?=.[0-9])(?=.[!@#$%^&*])(?=.{8,})/ 
+    url - /api/v1/users/admin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T04:45:52.200Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T04:46:08.886Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T04:46:08.955Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" with value "123456@Aa" fails to match the required pattern: /^(?=.[a-z])(?=.[A-Z])(?=.[0-9])(?=.[!@#$%^&*])(?=.{8,})/ 
+    url - /api/v1/users/admin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T04:46:27.386Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T04:46:55.803Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T04:46:55.862Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" with value "findjassi121212@gmail.com" fails to match the required pattern: /^[a-zA-z]{2}([+-_ .][a-zA-Z0-9]+)[@][a-zA-z0-9]+(.[a-z]{2,3})*$/ 
+    url - /api/v1/users/admin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T04:46:57.704Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" with value "Jassi@123" fails to match the required pattern: /^(?=.[a-z])(?=.[A-Z])(?=.[0-9])(?=.[!@#$%^&*])(?=.{8,})/ 
+    url - /api/v1/users/admin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T04:47:58.689Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" with value "Akash@123" fails to match the required pattern: /^(?=.[a-z])(?=.[A-Z])(?=.[0-9])(?=.[!@#$%^&*])(?=.{8,})/ 
+    url - /api/v1/users/admin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T04:48:10.499Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T04:49:50.336Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T04:49:50.390Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'then' of undefined
+    at newUser (/home/wahegurusabtera/BookStore/bookStore/build/controllers/user.controller.js:74:34)
+    at Layer.handle [as handle_request] (/home/wahegurusabtera/BookStore/bookStore/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/wahegurusabtera/BookStore/bookStore/node_modules/express/lib/router/route.js:137:13)
+    at /home/wahegurusabtera/BookStore/bookStore/build/middlewares/auth.middleware.js:12:5
+    at Layer.handle [as handle_request] (/home/wahegurusabtera/BookStore/bookStore/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/wahegurusabtera/BookStore/bookStore/node_modules/express/lib/router/route.js:137:13)
+    at newUserValidator (/home/wahegurusabtera/BookStore/bookStore/build/validators/user.validator.js:29:5)
+    at Layer.handle [as handle_request] (/home/wahegurusabtera/BookStore/bookStore/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/wahegurusabtera/BookStore/bookStore/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/wahegurusabtera/BookStore/bookStore/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/wahegurusabtera/BookStore/bookStore/node_modules/express/lib/router/layer.js:95:5)
+    at /home/wahegurusabtera/BookStore/bookStore/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/wahegurusabtera/BookStore/bookStore/node_modules/express/lib/router/index.js:341:12)
+    at next (/home/wahegurusabtera/BookStore/bookStore/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/wahegurusabtera/BookStore/bookStore/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/wahegurusabtera/BookStore/bookStore/node_modules/express/lib/router/index.js:47:12) 
+    url - /api/v1/users/admin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T04:49:55.570Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T04:52:04.518Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T04:52:04.579Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T04:52:58.838Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T04:52:58.896Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Books.users index: email_1 dup key: { : "js4770563@gmail.com" } 
+      url - /api/v1/users/admin 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-01-29T04:53:10.032Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at new NodeError (internal/errors.js:322:7)
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (/home/wahegurusabtera/BookStore/bookStore/node_modules/on-headers/index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (/home/wahegurusabtera/BookStore/bookStore/node_modules/express/lib/response.js:221:10)
+    at ServerResponse.json (/home/wahegurusabtera/BookStore/bookStore/node_modules/express/lib/response.js:267:15)
+    at appErrorHandler (/home/wahegurusabtera/BookStore/bookStore/build/middlewares/error.middleware.js:43:26)
+    at Layer.handle_error (/home/wahegurusabtera/BookStore/bookStore/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/wahegurusabtera/BookStore/bookStore/node_modules/express/lib/router/index.js:321:13)
+    at /home/wahegurusabtera/BookStore/bookStore/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/wahegurusabtera/BookStore/bookStore/node_modules/express/lib/router/index.js:341:12)
+    at Immediate.next (/home/wahegurusabtera/BookStore/bookStore/node_modules/express/lib/router/index.js:275:10)
+    at Immediate._onImmediate (/home/wahegurusabtera/BookStore/bookStore/node_modules/express/lib/router/index.js:641:15)
+    at processImmediate (internal/timers.js:466:21) 
+    url - /api/v1/users/admin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T04:53:10.046Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Books.users index: email_1 dup key: { : "js4770563@gmail.com" } 
+      url - /api/v1/users/user 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-01-29T04:53:25.629Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at new NodeError (internal/errors.js:322:7)
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (/home/wahegurusabtera/BookStore/bookStore/node_modules/on-headers/index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (/home/wahegurusabtera/BookStore/bookStore/node_modules/express/lib/response.js:221:10)
+    at ServerResponse.json (/home/wahegurusabtera/BookStore/bookStore/node_modules/express/lib/response.js:267:15)
+    at appErrorHandler (/home/wahegurusabtera/BookStore/bookStore/build/middlewares/error.middleware.js:43:26)
+    at Layer.handle_error (/home/wahegurusabtera/BookStore/bookStore/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/wahegurusabtera/BookStore/bookStore/node_modules/express/lib/router/index.js:321:13)
+    at /home/wahegurusabtera/BookStore/bookStore/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/wahegurusabtera/BookStore/bookStore/node_modules/express/lib/router/index.js:341:12)
+    at Immediate.next (/home/wahegurusabtera/BookStore/bookStore/node_modules/express/lib/router/index.js:275:10)
+    at Immediate._onImmediate (/home/wahegurusabtera/BookStore/bookStore/node_modules/express/lib/router/index.js:641:15)
+    at processImmediate (internal/timers.js:466:21) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T04:53:25.634Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T04:53:33.883Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T04:53:33.955Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Books.users index: email_1 dup key: { : "js4770563@gmail.com" } 
+      url - /api/v1/users/user 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-01-29T04:53:49.876Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at new NodeError (internal/errors.js:322:7)
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (/home/wahegurusabtera/BookStore/bookStore/node_modules/on-headers/index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (/home/wahegurusabtera/BookStore/bookStore/node_modules/express/lib/response.js:221:10)
+    at ServerResponse.json (/home/wahegurusabtera/BookStore/bookStore/node_modules/express/lib/response.js:267:15)
+    at appErrorHandler (/home/wahegurusabtera/BookStore/bookStore/build/middlewares/error.middleware.js:43:26)
+    at Layer.handle_error (/home/wahegurusabtera/BookStore/bookStore/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/wahegurusabtera/BookStore/bookStore/node_modules/express/lib/router/index.js:321:13)
+    at /home/wahegurusabtera/BookStore/bookStore/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/wahegurusabtera/BookStore/bookStore/node_modules/express/lib/router/index.js:341:12)
+    at Immediate.next (/home/wahegurusabtera/BookStore/bookStore/node_modules/express/lib/router/index.js:275:10)
+    at Immediate._onImmediate (/home/wahegurusabtera/BookStore/bookStore/node_modules/express/lib/router/index.js:641:15)
+    at processImmediate (internal/timers.js:466:21) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T04:53:49.884Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T04:55:13.334Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T04:55:13.387Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T04:56:06.369Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T04:56:06.410Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T04:56:40.980Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T04:56:41.021Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T04:57:07.178Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T04:57:07.243Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T04:58:47.134Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T04:58:47.199Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" with value "findjassi121212@gmail.com" fails to match the required pattern: /^[a-zA-z]{2}([+-_ .][a-zA-Z0-9]+)[@][a-zA-z0-9]+(.[a-z]{2,3})*$/ 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T04:58:56.012Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" with value "findjassi1212121233@gmail.com" fails to match the required pattern: /^[a-zA-z]{2}([+-_ .][a-zA-Z0-9]+)[@][a-zA-z0-9]+(.[a-z]{2,3})*$/ 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T04:59:24.825Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T04:59:35.882Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T04:59:35.945Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T05:02:53.275Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T05:02:53.335Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" with value "findjassi1212121233@gmail.com" fails to match the required pattern: /^[a-zA-z]{2}([+-_ .][a-zA-Z0-9]+)[@][a-zA-z0-9]+(.[a-z]{2,3})*$/ 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T05:03:00.137Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T05:04:33.836Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T05:04:33.889Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" with value "findjassi1212121233@gmail.com" fails to match the required pattern: /^[a-zA-z]{2}([+-_ .][a-zA-Z0-9]+)[@][a-zA-z0-9]+(.[a-z]{2,3})*$/ 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T05:04:39.029Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T05:04:53.044Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T05:04:53.102Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" with value "findjassi121212@gmail.com" fails to match the required pattern: /^[a-zA-z]{2}([+-_ .][a-zA-Z0-9]+)[@][a-zA-z0-9]+(.[a-z]{2,3})*$/ 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T05:04:56.671Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T05:05:26.484Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T05:05:26.547Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" with value "findjassi121212@gmail.com" fails to match the required pattern: /^[a-zA-z]{2}([+-_ .][a-zA-Z0-9]+)[@][a-zA-z0-9]+(.[a-z]{2,3})*$/ 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T05:05:33.225Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" with value "findjassi121212@gmail.com" fails to match the required pattern: /^[a-zA-z]{2}([+-_ .][a-zA-Z0-9]+)[@][a-zA-z0-9]+(.[a-z]{2,3})*$/ 
+    url - /api/v1/users/admin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T05:05:52.127Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T05:06:03.980Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T05:06:04.033Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" with value "findjassi121212@gmail.com" fails to match the required pattern: /^[a-zA-z]{2}([+-_ .][a-zA-Z0-9]+)[@][a-zA-z0-9]+(.[a-z]{2,3})*$/ 
+    url - /api/v1/users/admin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T05:06:07.953Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T05:08:13.771Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T05:08:13.821Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" with value "456783@Aa" fails to match the required pattern: /^(?=.[a-z])(?=.[A-Z])(?=.[0-9])(?=.[!@#$%^&*])(?=.{8,})/ 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T05:08:18.038Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T05:08:55.537Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T05:08:55.575Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Books.users index: email_1 dup key: { : "findjassi121212@gmail.com" } 
+      url - /api/v1/users/admin 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-01-29T05:09:31.722Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at new NodeError (internal/errors.js:322:7)
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (/home/wahegurusabtera/BookStore/bookStore/node_modules/on-headers/index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (/home/wahegurusabtera/BookStore/bookStore/node_modules/express/lib/response.js:221:10)
+    at ServerResponse.json (/home/wahegurusabtera/BookStore/bookStore/node_modules/express/lib/response.js:267:15)
+    at appErrorHandler (/home/wahegurusabtera/BookStore/bookStore/build/middlewares/error.middleware.js:43:26)
+    at Layer.handle_error (/home/wahegurusabtera/BookStore/bookStore/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/wahegurusabtera/BookStore/bookStore/node_modules/express/lib/router/index.js:321:13)
+    at /home/wahegurusabtera/BookStore/bookStore/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/wahegurusabtera/BookStore/bookStore/node_modules/express/lib/router/index.js:341:12)
+    at Immediate.next (/home/wahegurusabtera/BookStore/bookStore/node_modules/express/lib/router/index.js:275:10)
+    at Immediate._onImmediate (/home/wahegurusabtera/BookStore/bookStore/node_modules/express/lib/router/index.js:641:15)
+    at processImmediate (internal/timers.js:466:21) 
+    url - /api/v1/users/admin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T05:09:31.728Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T05:09:44.651Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T05:09:44.685Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Books.users index: email_1 dup key: { : "findjassi121212@gmail.com" } 
+      url - /api/v1/users/admin 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-01-29T05:09:49.062Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at new NodeError (internal/errors.js:322:7)
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (/home/wahegurusabtera/BookStore/bookStore/node_modules/on-headers/index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (/home/wahegurusabtera/BookStore/bookStore/node_modules/express/lib/response.js:221:10)
+    at ServerResponse.json (/home/wahegurusabtera/BookStore/bookStore/node_modules/express/lib/response.js:267:15)
+    at appErrorHandler (/home/wahegurusabtera/BookStore/bookStore/build/middlewares/error.middleware.js:43:26)
+    at Layer.handle_error (/home/wahegurusabtera/BookStore/bookStore/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/wahegurusabtera/BookStore/bookStore/node_modules/express/lib/router/index.js:321:13)
+    at /home/wahegurusabtera/BookStore/bookStore/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/wahegurusabtera/BookStore/bookStore/node_modules/express/lib/router/index.js:341:12)
+    at Immediate.next (/home/wahegurusabtera/BookStore/bookStore/node_modules/express/lib/router/index.js:275:10)
+    at Immediate._onImmediate (/home/wahegurusabtera/BookStore/bookStore/node_modules/express/lib/router/index.js:641:15)
+    at processImmediate (internal/timers.js:466:21) 
+    url - /api/v1/users/admin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-29T05:09:49.070Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T05:10:25.370Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T05:10:25.425Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T06:47:35.320Z"}
+info: Connected to the database. {"timestamp":"2022-01-29T06:47:35.384Z"}
