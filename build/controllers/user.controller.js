@@ -71,7 +71,14 @@ exports.getAllUsers = getAllUsers;
 
 var newUser = function newUser(req, res, next) {
   try {
-    UserService.newUser(req.body).then(function (data) {
+    var userdetail = {
+      firstName: req.body.firstName,
+      lastName: req.body.lastName,
+      email: req.body.email,
+      password: req.body.password,
+      role: req.body.role
+    };
+    UserService.newUser(userdetail).then(function (data) {
       res.status(_httpStatusCodes["default"].CREATED).json({
         code: _httpStatusCodes["default"].CREATED,
         data: data,
