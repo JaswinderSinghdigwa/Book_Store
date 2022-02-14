@@ -6,19 +6,54 @@
     "auditLog": "logs/server/daily/.66f9134d6120569f739e98c9ffd0130985b9b2a5-audit.json",
     "files": [
         {
-            "date": 1643365753858,
-            "name": "logs/server/daily/2022-01-28.log",
-            "hash": "6776c4e058ef742346eb033f938aa2ad"
-        },
-        {
-            "date": 1643428062057,
-            "name": "logs/server/daily/2022-01-29.log",
-            "hash": "771bbbe861148c31dddfa0e956831b8b"
-        },
-        {
             "date": 1643712849905,
             "name": "logs/server/daily/2022-02-01.log",
             "hash": "1c7c790dc1953dddc029a89ed7434058"
+        },
+        {
+            "date": 1643773175173,
+            "name": "logs/server/daily/2022-02-02.log",
+            "hash": "1f111ac969a11ab82ac92a40ea8fa83c"
+        },
+        {
+            "date": 1643862553647,
+            "name": "logs/server/daily/2022-02-03.log",
+            "hash": "8bff24c4c1f303bee7b6e1c2ac9b9f64"
+        },
+        {
+            "date": 1643939671079,
+            "name": "logs/server/daily/2022-02-04.log",
+            "hash": "2aafaa838b40d536432d21200b895071"
+        },
+        {
+            "date": 1644030268777,
+            "name": "logs/server/daily/2022-02-05.log",
+            "hash": "fef959539b648e003aa370391c3e1aab"
+        },
+        {
+            "date": 1644293364538,
+            "name": "logs/server/daily/2022-02-08.log",
+            "hash": "25e43f9295462fa842f8b943ef291c61"
+        },
+        {
+            "date": 1644381168860,
+            "name": "logs/server/daily/2022-02-09.log",
+            "hash": "064e40bd823ccf93be4d1dce567bb4d3"
+        },
+        {
+            "date": 1644467724710,
+            "name": "logs/server/daily/2022-02-10.log",
+            "hash": "3a44d1be888cb26cf1f81028e4014336"
+        },
+        {
+            "date": 1644553921051,
+            "name": "logs/server/daily/2022-02-11.log",
+            "hash": "e2ec810dfe4b3a1c335c38a070dde4c7"
+        },
+        {
+            "date": 1644809910005,
+            "name": "logs/server/daily/2022-02-14.log",
+            "hash": "2b7da54a63d7434adb693d01397c7717"
         }
     ],
     "hashType": "md5"

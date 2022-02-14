@@ -1,0 +1,267 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T03:39:35.281Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T03:39:35.318Z"}
+error: 
+    status - 500 
+    message - ReferenceError: bearer is not defined
+    at _callee$ (/home/saeb/Book_Store/Book_Store/build/middlewares/auth.middleware.js:87:20)
+    at tryCatch (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at /home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12
+    at auth (/home/saeb/Book_Store/Book_Store/build/middlewares/auth.middleware.js:119:17)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at /home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:341:12) 
+    url - /api/v1/users/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-02T03:40:41.930Z"}
+error: 
+    status - 500 
+    message - ReferenceError: bearer is not defined
+    at _callee$ (/home/saeb/Book_Store/Book_Store/build/middlewares/auth.middleware.js:87:20)
+    at tryCatch (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at /home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12
+    at auth (/home/saeb/Book_Store/Book_Store/build/middlewares/auth.middleware.js:119:17)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at /home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:341:12) 
+    url - /api/v1/users/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-02T03:41:23.633Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T03:41:34.594Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T03:41:34.752Z"}
+error: 
+      status - 401
+      message - Only Admin Had this Permissions 
+      url - /api/v1/users/addbook 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-02T03:41:52.291Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T03:42:26.020Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T03:42:26.057Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T03:53:22.963Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T03:53:23.018Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T04:05:28.344Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T04:05:28.393Z"}
+error: 
+    status - 500 
+    message - ReferenceError: then is not defined
+    at Object.updatebook (/home/saeb/Book_Store/Book_Store/build/services/book.service.js:87:3)
+    at updatebook (/home/saeb/Book_Store/Book_Store/build/controllers/bookstore.controller.js:133:17)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/route.js:137:13)
+    at verifyRole (/home/saeb/Book_Store/Book_Store/build/middlewares/auth.middleware.js:46:5)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/route.js:137:13)
+    at /home/saeb/Book_Store/Book_Store/build/middlewares/auth.middleware.js:98:17
+    at /home/saeb/Book_Store/Book_Store/node_modules/jsonwebtoken/verify.js:223:12
+    at getSecret (/home/saeb/Book_Store/Book_Store/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/home/saeb/Book_Store/Book_Store/node_modules/jsonwebtoken/verify.js:94:10)
+    at _callee$ (/home/saeb/Book_Store/Book_Store/build/middlewares/auth.middleware.js:90:38)
+    at tryCatch (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24) 
+    url - /api/v1/users/updatebook/61f9fda4f30113381f08381a 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-02T04:10:49.534Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T04:11:23.805Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T04:11:23.852Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'then' of undefined
+    at updatebook (/home/saeb/Book_Store/Book_Store/build/controllers/bookstore.controller.js:133:33)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/route.js:137:13)
+    at verifyRole (/home/saeb/Book_Store/Book_Store/build/middlewares/auth.middleware.js:46:5)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/route.js:137:13)
+    at /home/saeb/Book_Store/Book_Store/build/middlewares/auth.middleware.js:98:17
+    at /home/saeb/Book_Store/Book_Store/node_modules/jsonwebtoken/verify.js:223:12
+    at getSecret (/home/saeb/Book_Store/Book_Store/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/home/saeb/Book_Store/Book_Store/node_modules/jsonwebtoken/verify.js:94:10)
+    at _callee$ (/home/saeb/Book_Store/Book_Store/build/middlewares/auth.middleware.js:90:38)
+    at tryCatch (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9) 
+    url - /api/v1/users/updatebook/61f9fda4f30113381f08381a 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-02T04:11:30.391Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T04:12:16.511Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T04:12:16.551Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T04:25:34.551Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T04:25:34.592Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T04:30:04.742Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T04:30:04.786Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T04:35:14.939Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T04:35:14.979Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T04:35:46.075Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T04:35:46.114Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T04:36:30.877Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T04:36:30.938Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T04:37:19.472Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T04:37:19.527Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T04:38:56.414Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T04:38:56.452Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T04:41:11.379Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T04:41:11.418Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T04:47:15.576Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T04:47:15.625Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T04:50:37.010Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T04:50:37.058Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T04:59:35.738Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T04:59:35.776Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T05:00:37.804Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T05:00:37.842Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T05:01:23.384Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T05:01:23.429Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T05:10:11.495Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T05:10:11.537Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T05:11:22.704Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T05:11:22.744Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T05:12:09.185Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T05:12:09.221Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T05:13:14.058Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T05:13:14.097Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T05:15:50.585Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T05:15:50.627Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T05:16:54.101Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T05:16:54.142Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T05:18:45.140Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T05:18:45.177Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T05:19:38.189Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T05:19:38.232Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T05:21:20.813Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T05:21:20.861Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T05:22:29.358Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T05:22:29.412Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T05:45:20.230Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T05:45:20.276Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T05:53:13.161Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T05:53:13.203Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T05:54:23.899Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T05:54:23.938Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T05:55:09.716Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T05:55:09.753Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T06:02:08.498Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T06:02:08.546Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T06:32:09.729Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T06:32:09.793Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T06:36:18.303Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T06:36:18.364Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T06:37:32.689Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T06:37:32.755Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T06:40:15.442Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T06:40:15.490Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T06:41:08.952Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T06:41:09.020Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T06:42:50.238Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T06:42:50.289Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T08:43:16.264Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T08:43:16.308Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/findallbooks 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-02-02T08:44:43.246Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T08:45:31.439Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T08:45:31.479Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ id: undefined }" (type Object) at path "_id" for model "book"
+    at model.Query.exec (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/query.js:4592:15)
+    at /home/saeb/Book_Store/Book_Store/build/services/book.service.js:90:35
+    at new Promise (<anonymous>)
+    at Object.findBookById (/home/saeb/Book_Store/Book_Store/build/services/book.service.js:89:10)
+    at findBookById (/home/saeb/Book_Store/Book_Store/build/controllers/bookstore.controller.js:120:15)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/route.js:137:13)
+    at /home/saeb/Book_Store/Book_Store/build/middlewares/auth.middleware.js:98:17
+    at /home/saeb/Book_Store/Book_Store/node_modules/jsonwebtoken/verify.js:223:12
+    at getSecret (/home/saeb/Book_Store/Book_Store/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/home/saeb/Book_Store/Book_Store/node_modules/jsonwebtoken/verify.js:94:10)
+    at _callee$ (/home/saeb/Book_Store/Book_Store/build/middlewares/auth.middleware.js:90:38)
+    at tryCatch (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:119:21) 
+    url - /api/v1/users/findbookbyid/61fa1aa38e2d229d03c60449 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-02T08:46:36.688Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ id: undefined }" (type Object) at path "_id" for model "book"
+    at model.Query.exec (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/query.js:4592:15)
+    at /home/saeb/Book_Store/Book_Store/build/services/book.service.js:90:35
+    at new Promise (<anonymous>)
+    at Object.findBookById (/home/saeb/Book_Store/Book_Store/build/services/book.service.js:89:10)
+    at findBookById (/home/saeb/Book_Store/Book_Store/build/controllers/bookstore.controller.js:120:15)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/route.js:137:13)
+    at /home/saeb/Book_Store/Book_Store/build/middlewares/auth.middleware.js:98:17
+    at /home/saeb/Book_Store/Book_Store/node_modules/jsonwebtoken/verify.js:223:12
+    at getSecret (/home/saeb/Book_Store/Book_Store/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/home/saeb/Book_Store/Book_Store/node_modules/jsonwebtoken/verify.js:94:10)
+    at _callee$ (/home/saeb/Book_Store/Book_Store/build/middlewares/auth.middleware.js:90:38)
+    at tryCatch (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:119:21) 
+    url - /api/v1/users/findbookbyid/61fa1aa38e2d229d03c60449 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-02T08:47:26.093Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T08:47:34.593Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T08:47:34.634Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T08:50:07.060Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T08:50:07.096Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T08:51:34.144Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T08:51:34.188Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":bookid" (type string) at path "_id" for model "book"
+    at model.Query.exec (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/query.js:4592:15)
+    at /home/saeb/Book_Store/Book_Store/build/services/book.service.js:92:38
+    at new Promise (<anonymous>)
+    at Object.findBookById (/home/saeb/Book_Store/Book_Store/build/services/book.service.js:89:10)
+    at findBookById (/home/saeb/Book_Store/Book_Store/build/controllers/bookstore.controller.js:120:15)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/route.js:137:13)
+    at /home/saeb/Book_Store/Book_Store/build/middlewares/auth.middleware.js:98:17
+    at /home/saeb/Book_Store/Book_Store/node_modules/jsonwebtoken/verify.js:223:12
+    at getSecret (/home/saeb/Book_Store/Book_Store/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/home/saeb/Book_Store/Book_Store/node_modules/jsonwebtoken/verify.js:94:10)
+    at _callee$ (/home/saeb/Book_Store/Book_Store/build/middlewares/auth.middleware.js:90:38)
+    at tryCatch (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:119:21) 
+    url - /api/v1/users/findbookbyid/:bookid 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-02T08:51:36.932Z"}

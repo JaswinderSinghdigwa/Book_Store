@@ -1,0 +1,138 @@
+info: ::1 - - [10/Feb/2022:05:01:19 +0000] "POST /api/v1/users/login HTTP/1.1" 404 43 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Feb/2022:05:01:48 +0000] "POST /api/v1/users/login HTTP/1.1" 404 43 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Feb/2022:05:01:59 +0000] "POST /api/v1/users/login HTTP/1.1" 404 43 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Feb/2022:05:05:14 +0000] "POST /api/v1/users/login HTTP/1.1" 404 43 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Feb/2022:05:05:39 +0000] "GET /api/v1/users/admin HTTP/1.1" 404 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Feb/2022:05:05:51 +0000] "GET /api/v1/users/admin HTTP/1.1" 404 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Feb/2022:05:06:13 +0000] "GET /api/v1/users/admin HTTP/1.1" 404 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Feb/2022:05:06:26 +0000] "POST /api/v1/users/admin HTTP/1.1" 201 340 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Feb/2022:05:06:36 +0000] "POST /api/v1/users/login HTTP/1.1" 404 43 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Feb/2022:05:06:59 +0000] "POST /api/v1/users/login HTTP/1.1" 200 260 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Feb/2022:05:07:33 +0000] "POST /api/v1/users/login HTTP/1.1" 200 259 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Feb/2022:05:08:49 +0000] "GET /api/v1/carts/viewcart HTTP/1.1" 404 44 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Feb/2022:05:09:27 +0000] "GET /api/v1/carts/viewcart HTTP/1.1" 404 44 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Feb/2022:05:10:05 +0000] "GET /api/v1/carts/viewcart HTTP/1.1" 404 44 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Feb/2022:05:10:35 +0000] "GET /api/v1/carts/viewcart HTTP/1.1" 404 44 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Feb/2022:05:13:29 +0000] "POST /api/v1/books/addbook HTTP/1.1" 401 56 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Feb/2022:05:13:59 +0000] "POST /api/v1/users/login HTTP/1.1" 200 260 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Feb/2022:05:14:15 +0000] "POST /api/v1/books/addbook HTTP/1.1" 401 56 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Feb/2022:05:14:31 +0000] "POST /api/v1/books/addbook HTTP/1.1" 401 45 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Feb/2022:05:15:04 +0000] "POST /api/v1/books/addbook HTTP/1.1" 201 218 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Feb/2022:05:15:23 +0000] "POST /api/v1/books/addbook HTTP/1.1" 201 228 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Feb/2022:05:16:14 +0000] "PUT /api/v1/carts/addtocart/:bookId HTTP/1.1" 500 129 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Feb/2022:05:16:39 +0000] "PUT /api/v1/carts/addtocart/62049f58b4d275f0c8829722 HTTP/1.1" 200 58 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Feb/2022:05:17:27 +0000] "GET /api/v1/carts/viewcart HTTP/1.1" 404 44 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Feb/2022:05:17:44 +0000] "GET /api/v1/carts/viewcart HTTP/1.1" 404 77 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Feb/2022:05:24:08 +0000] "GET /api/v1/carts/viewcart HTTP/1.1" 404 77 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Feb/2022:05:25:18 +0000] "GET /api/v1/carts/viewcart HTTP/1.1" 404 77 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Feb/2022:05:27:37 +0000] "PUT /api/v1/carts/addtocart/62049f58b4d275f0c8829722 HTTP/1.1" 200 58 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Feb/2022:05:28:12 +0000] "GET /api/v1/carts/viewcart HTTP/1.1" 404 77 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Feb/2022:05:28:49 +0000] "GET /api/v1/carts/viewcart HTTP/1.1" 404 77 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Feb/2022:05:29:12 +0000] "PUT /api/v1/carts/addtocart/62049f58b4d275f0c8829722 HTTP/1.1" 200 58 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Feb/2022:05:29:23 +0000] "GET /api/v1/carts/viewcart HTTP/1.1" 200 264 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Feb/2022:05:33:55 +0000] "POST /api/v1/wishlist/add HTTP/1.1" 200 62 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Feb/2022:05:34:22 +0000] "GET /api/v1/wishlist/mywishlist HTTP/1.1" 200 266 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Feb/2022:05:34:34 +0000] "PUT /api/v1/wishlist/remove HTTP/1.1" 400 56 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Feb/2022:05:34:40 +0000] "PUT /api/v1/wishlist/remove HTTP/1.1" 200 64 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Feb/2022:06:14:32 +0000] "GET /api/v1/carts/viewcart HTTP/1.1" 200 264 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Feb/2022:06:16:00 +0000] "GET /api/v1/books/findallbooks HTTP/1.1" 404 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Feb/2022:06:16:07 +0000] "GET /api/v1/books/findallbooks HTTP/1.1" 200 1212 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Feb/2022:06:16:30 +0000] "PUT /api/v1/carts/addtocart/61fc8b2a3f2ecc0bc121352e HTTP/1.1" 200 58 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Feb/2022:06:17:15 +0000] "GET /api/v1/carts/viewcart HTTP/1.1" 200 361 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Feb/2022:06:17:33 +0000] "POST /api/v1/wishlist/add HTTP/1.1" 200 62 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Feb/2022:13:43:44 +0000] "GET /api/v1/users/docs HTTP/1.1" 404 47 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+
+info: ::1 - - [10/Feb/2022:13:43:44 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+
+info: ::1 - - [10/Feb/2022:13:44:00 +0000] "GET /api/v1/docs HTTP/1.1" 301 189 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+
+info: ::1 - - [10/Feb/2022:13:44:00 +0000] "GET /api/v1/docs/ HTTP/1.1" 200 3102 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+
+info: ::1 - - [10/Feb/2022:13:44:00 +0000] "GET /api/v1/docs/swagger-ui-init.js HTTP/1.1" 200 25619 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+
+info: ::1 - - [10/Feb/2022:13:44:00 +0000] "GET /api/v1/docs/swagger-ui.css HTTP/1.1" 200 143858 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+
+info: ::1 - - [10/Feb/2022:13:44:00 +0000] "GET /api/v1/docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 319759 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+
+info: ::1 - - [10/Feb/2022:13:44:00 +0000] "GET /api/v1/docs/swagger-ui-bundle.js HTTP/1.1" 200 1079405 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+
+info: ::1 - - [10/Feb/2022:13:44:00 +0000] "GET /api/v1/docs/favicon-32x32.png HTTP/1.1" 200 628 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+
+info: ::1 - - [10/Feb/2022:13:59:58 +0000] "GET /api/v1/docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+
+info: ::1 - - [10/Feb/2022:13:59:58 +0000] "GET /api/v1/docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+
+info: ::1 - - [10/Feb/2022:13:59:58 +0000] "GET /api/v1/docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+
+info: ::1 - - [10/Feb/2022:13:59:58 +0000] "GET /api/v1/docs/swagger-ui-init.js HTTP/1.1" 200 25646 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+
+info: ::1 - - [10/Feb/2022:13:59:58 +0000] "GET /api/v1/docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+
+info: ::1 - - [10/Feb/2022:13:59:59 +0000] "GET /api/v1/docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+
+info: ::1 - - [10/Feb/2022:14:44:19 +0000] "POST /api/v1/users/login HTTP/1.1" 404 43 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Feb/2022:14:47:33 +0000] "PUT /api/v1/carts/placeorder HTTP/1.1" 400 56 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Feb/2022:14:47:39 +0000] "POST /api/v1/users/login HTTP/1.1" 404 43 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Feb/2022:14:55:33 +0000] "PUT /api/v1/carts/placeorder HTTP/1.1" 400 56 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Feb/2022:14:55:39 +0000] "PUT /api/v1/carts/placeorder HTTP/1.1" 400 56 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Feb/2022:14:55:43 +0000] "POST /api/v1/users/login HTTP/1.1" 404 43 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Feb/2022:17:37:31 +0000] "GET /api/v1/docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+
+info: ::1 - - [10/Feb/2022:17:37:31 +0000] "GET /api/v1/docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+
+info: ::1 - - [10/Feb/2022:17:37:31 +0000] "GET /api/v1/docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+
+info: ::1 - - [10/Feb/2022:17:37:31 +0000] "GET /api/v1/docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+
+info: ::1 - - [10/Feb/2022:17:37:31 +0000] "GET /api/v1/docs/swagger-ui-init.js HTTP/1.1" 200 25686 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+
+info: ::1 - - [10/Feb/2022:17:37:32 +0000] "GET /api/v1/docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+

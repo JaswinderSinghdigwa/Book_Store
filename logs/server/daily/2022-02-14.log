@@ -1,0 +1,702 @@
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-14T03:38:32.852Z"}
+info: Connected to the database. {"timestamp":"2022-02-14T03:38:37.408Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-14T03:53:08.920Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T03:53:09.219Z"}
+error: 
+      status - 401
+      message - Authorization Failed 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T03:53:09.256Z"}
+error: 
+    status - 500 
+    message - ValidationError: "productImage" is not allowed 
+    url - /api/v1/books/addbook 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-14T03:53:09.287Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'path' of undefined
+    at _callee$ (/home/saeb/Book_Store/Book_Store/src/controllers/bookstore.controller.js:23:28)
+    at tryCatch (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at /home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12
+    at addbook (/home/saeb/Book_Store/Book_Store/src/controllers/bookstore.controller.js:15:21)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/route.js:137:13)
+    at bookValidator (/home/saeb/Book_Store/Book_Store/src/validators/book.Validator.js:23:7)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/route.js:137:13)
+    at multerMiddleware (/home/saeb/Book_Store/Book_Store/node_modules/multer/lib/make-middleware.js:18:41)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/route.js:137:13)
+    at verifyRole (/home/saeb/Book_Store/Book_Store/src/middlewares/auth.middleware.js:27:5)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/route.js:137:13)
+    at /home/saeb/Book_Store/Book_Store/src/middlewares/auth.middleware.js:63:9
+    at /home/saeb/Book_Store/Book_Store/node_modules/jsonwebtoken/verify.js:223:12
+    at getSecret (/home/saeb/Book_Store/Book_Store/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.verify (/home/saeb/Book_Store/Book_Store/node_modules/jsonwebtoken/verify.js:94:10)
+    at _callee$ (/home/saeb/Book_Store/Book_Store/src/middlewares/auth.middleware.js:55:9)
+    at tryCatch (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at /home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12
+    at auth (/home/saeb/Book_Store/Book_Store/src/middlewares/auth.middleware.js:44:19)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at /home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:341:12)
+    at next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:323:13)
+    at /home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:341:12)
+    at next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:323:13)
+    at /home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:341:12)
+    at next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:275:10)
+    at logger (/home/saeb/Book_Store/Book_Store/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:323:13)
+    at /home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:341:12)
+    at next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:275:10)
+    at /home/saeb/Book_Store/Book_Store/node_modules/body-parser/lib/read.js:130:5
+    at invokeCallback (/home/saeb/Book_Store/Book_Store/node_modules/raw-body/index.js:224:16)
+    at done (/home/saeb/Book_Store/Book_Store/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/home/saeb/Book_Store/Book_Store/node_modules/raw-body/index.js:273:7)
+    at IncomingMessage.emit (node:events:406:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/books/addbook 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-14T03:53:09.422Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/findallbooks 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T03:53:09.439Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/searchbook/first%20book%20title 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T03:53:09.524Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/searchbook/first%20book 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T03:53:09.551Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" with value "bharath@248" fails to match the required pattern: /(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$/ 
+    url - /api/v1/users/admin 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-14T03:53:09.624Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" with value "bharath@248" fails to match the required pattern: /(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$/ 
+    url - /api/v1/users/admin 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-14T03:53:09.650Z"}
+info: Connected to the database. {"timestamp":"2022-02-14T03:53:11.712Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-14T03:53:58.945Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T03:53:59.069Z"}
+error: 
+      status - 401
+      message - Authorization Failed 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T03:53:59.096Z"}
+error: 
+    status - 500 
+    message - ValidationError: "productImage" is not allowed 
+    url - /api/v1/books/addbook 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-14T03:53:59.117Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'path' of undefined
+    at _callee$ (/home/saeb/Book_Store/Book_Store/src/controllers/bookstore.controller.js:23:28)
+    at tryCatch (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at /home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12
+    at addbook (/home/saeb/Book_Store/Book_Store/src/controllers/bookstore.controller.js:15:21)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/route.js:137:13)
+    at bookValidator (/home/saeb/Book_Store/Book_Store/src/validators/book.Validator.js:23:7)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/route.js:137:13)
+    at multerMiddleware (/home/saeb/Book_Store/Book_Store/node_modules/multer/lib/make-middleware.js:18:41)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/route.js:137:13)
+    at verifyRole (/home/saeb/Book_Store/Book_Store/src/middlewares/auth.middleware.js:27:5)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/route.js:137:13)
+    at /home/saeb/Book_Store/Book_Store/src/middlewares/auth.middleware.js:63:9
+    at /home/saeb/Book_Store/Book_Store/node_modules/jsonwebtoken/verify.js:223:12
+    at getSecret (/home/saeb/Book_Store/Book_Store/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.verify (/home/saeb/Book_Store/Book_Store/node_modules/jsonwebtoken/verify.js:94:10)
+    at _callee$ (/home/saeb/Book_Store/Book_Store/src/middlewares/auth.middleware.js:55:9)
+    at tryCatch (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at /home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12
+    at auth (/home/saeb/Book_Store/Book_Store/src/middlewares/auth.middleware.js:44:19)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at /home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:341:12)
+    at next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:323:13)
+    at /home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:341:12)
+    at next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:323:13)
+    at /home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:341:12)
+    at next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:275:10)
+    at logger (/home/saeb/Book_Store/Book_Store/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:323:13)
+    at /home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:341:12)
+    at next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:275:10)
+    at /home/saeb/Book_Store/Book_Store/node_modules/body-parser/lib/read.js:130:5
+    at invokeCallback (/home/saeb/Book_Store/Book_Store/node_modules/raw-body/index.js:224:16)
+    at done (/home/saeb/Book_Store/Book_Store/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/home/saeb/Book_Store/Book_Store/node_modules/raw-body/index.js:273:7)
+    at IncomingMessage.emit (node:events:406:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/books/addbook 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-14T03:53:59.145Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/findallbooks 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T03:53:59.157Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/searchbook/first%20book%20title 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T03:53:59.192Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/searchbook/first%20book 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T03:53:59.203Z"}
+info: Connected to the database. {"timestamp":"2022-02-14T03:54:01.280Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-14T03:57:03.689Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T03:57:03.800Z"}
+error: 
+      status - 401
+      message - Authorization Failed 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T03:57:03.861Z"}
+error: 
+    status - 500 
+    message - ValidationError: "productImage" is not allowed 
+    url - /api/v1/books/addbook 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-14T03:57:03.878Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'path' of undefined
+    at _callee$ (/home/saeb/Book_Store/Book_Store/src/controllers/bookstore.controller.js:23:28)
+    at tryCatch (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at /home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12
+    at addbook (/home/saeb/Book_Store/Book_Store/src/controllers/bookstore.controller.js:15:21)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/route.js:137:13)
+    at bookValidator (/home/saeb/Book_Store/Book_Store/src/validators/book.Validator.js:23:7)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/route.js:137:13)
+    at multerMiddleware (/home/saeb/Book_Store/Book_Store/node_modules/multer/lib/make-middleware.js:18:41)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/route.js:137:13)
+    at verifyRole (/home/saeb/Book_Store/Book_Store/src/middlewares/auth.middleware.js:27:5)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/route.js:137:13)
+    at /home/saeb/Book_Store/Book_Store/src/middlewares/auth.middleware.js:63:9
+    at /home/saeb/Book_Store/Book_Store/node_modules/jsonwebtoken/verify.js:223:12
+    at getSecret (/home/saeb/Book_Store/Book_Store/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.verify (/home/saeb/Book_Store/Book_Store/node_modules/jsonwebtoken/verify.js:94:10)
+    at _callee$ (/home/saeb/Book_Store/Book_Store/src/middlewares/auth.middleware.js:55:9)
+    at tryCatch (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at /home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12
+    at auth (/home/saeb/Book_Store/Book_Store/src/middlewares/auth.middleware.js:44:19)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at /home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:341:12)
+    at next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:323:13)
+    at /home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:341:12)
+    at next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:323:13)
+    at /home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:341:12)
+    at next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:275:10)
+    at logger (/home/saeb/Book_Store/Book_Store/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:323:13)
+    at /home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:341:12)
+    at next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:275:10)
+    at /home/saeb/Book_Store/Book_Store/node_modules/body-parser/lib/read.js:130:5
+    at invokeCallback (/home/saeb/Book_Store/Book_Store/node_modules/raw-body/index.js:224:16)
+    at done (/home/saeb/Book_Store/Book_Store/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/home/saeb/Book_Store/Book_Store/node_modules/raw-body/index.js:273:7)
+    at IncomingMessage.emit (node:events:406:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/books/addbook 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-14T03:57:03.914Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/findallbooks 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T03:57:03.925Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/searchbook/first%20book%20title 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T03:57:03.960Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/searchbook/first%20book 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T03:57:03.969Z"}
+info: Connected to the database. {"timestamp":"2022-02-14T03:57:06.208Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-14T04:00:36.215Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T04:00:36.385Z"}
+error: 
+      status - 401
+      message - Authorization Failed 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T04:00:36.615Z"}
+error: 
+      status - 401
+      message - Authorization Failed 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T04:00:36.628Z"}
+error: 
+      status - 401
+      message - Authorization Failed 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T04:00:36.879Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/findallbooks 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T04:00:36.892Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/searchbook/first%20book%20title 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T04:00:36.928Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/searchbook/first%20book 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T04:00:36.942Z"}
+info: Connected to the database. {"timestamp":"2022-02-14T04:00:39.205Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-14T04:41:22.885Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T04:41:22.994Z"}
+error: 
+      status - 401
+      message - Authorization Failed 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T04:41:23.206Z"}
+error: 
+      status - 401
+      message - Authorization Failed 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T04:41:23.225Z"}
+error: 
+      status - 401
+      message - Authorization Failed 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T04:41:23.310Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/findallbooks 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T04:41:23.329Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/searchbook/first%20book%20title 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T04:41:23.369Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/searchbook/first%20book 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T04:41:23.381Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-14T04:41:46.826Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T04:41:46.991Z"}
+error: 
+      status - 401
+      message - Authorization Failed 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T04:41:47.032Z"}
+error: 
+      status - 401
+      message - Authorization Failed 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T04:41:47.050Z"}
+error: 
+      status - 401
+      message - Authorization Failed 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T04:41:47.091Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/findallbooks 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T04:41:47.112Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/searchbook/first%20book%20title 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T04:41:47.187Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/searchbook/first%20book 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T04:41:47.199Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-14T04:53:37.626Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-14T04:54:18.523Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T04:54:18.597Z"}
+error: 
+      status - 401
+      message - Authorization Failed 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T04:54:18.633Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-14T04:59:10.603Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T04:59:10.731Z"}
+error: 
+      status - 401
+      message - Authorization Failed 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T04:59:11.051Z"}
+error: 
+      status - 401
+      message - Authorization Failed 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T04:59:11.067Z"}
+error: 
+      status - 401
+      message - Authorization Failed 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T04:59:11.129Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/findallbooks 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T04:59:11.145Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/searchbook/first%20book%20title 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T04:59:11.175Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/searchbook/first%20book 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T04:59:11.187Z"}
+error: 
+      status - 401
+      message - Authorization Failed 
+      url - /api/v1/books/trashbook/61e809e80811ed1178039e5e 
+      method - DELETE 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T04:59:11.200Z"}
+error: 
+      status - 401
+      message - Authorization Failed 
+      url - /api/v1/books/trashbook/61e809e80811ed1178039e5e 
+      method - DELETE 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T04:59:11.237Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-14T05:02:46.457Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T05:02:46.517Z"}
+error: 
+      status - 401
+      message - Authorization Failed 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T05:02:46.551Z"}
+error: 
+      status - 401
+      message - Authorization Failed 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T05:02:46.562Z"}
+error: 
+      status - 401
+      message - Authorization Failed 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T05:02:46.593Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/findallbooks 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T05:02:46.652Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/searchbook/Move%20Like%20u%20want 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T05:02:46.683Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/searchbook/first%20book 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T05:02:46.696Z"}
+error: 
+      status - 401
+      message - Authorization Failed 
+      url - /api/v1/books/trashbook/62049f58b4d275f0c8829722 
+      method - DELETE 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T05:02:46.708Z"}
+error: 
+      status - 401
+      message - Authorization Failed 
+      url - /api/v1/books/trashbook/62049f58b4d275f0c8829722 
+      method - DELETE 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T05:02:46.721Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-14T05:05:08.677Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T05:05:08.741Z"}
+error: 
+      status - 401
+      message - Authorization Failed 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T05:05:08.781Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-14T05:29:55.969Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-14T05:33:45.495Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-14T05:34:31.985Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-14T05:37:20.824Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-14T05:38:45.248Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-14T06:02:45.534Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-14T06:06:33.490Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-14T06:09:19.216Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-14T06:13:16.225Z"}
+error: 
+      status - 401
+      message - Authorization Failed 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T06:13:16.472Z"}

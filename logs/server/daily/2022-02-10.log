@@ -1,0 +1,84 @@
+info: Connected to the database. {"timestamp":"2022-02-10T04:35:24.877Z"}
+info: Connected to the database. {"timestamp":"2022-02-10T04:35:58.549Z"}
+info: Connected to the database. {"timestamp":"2022-02-10T04:53:32.866Z"}
+info: Connected to the database. {"timestamp":"2022-02-10T04:54:03.361Z"}
+info: Connected to the database. {"timestamp":"2022-02-10T04:55:09.397Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-10T04:55:53.185Z"}
+info: Connected to the database. {"timestamp":"2022-02-10T04:55:53.223Z"}
+info: Connected to the database. {"timestamp":"2022-02-10T05:03:18.607Z"}
+info: Connected to the database. {"timestamp":"2022-02-10T05:03:36.465Z"}
+info: Connected to the database. {"timestamp":"2022-02-10T05:04:36.795Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-10T05:04:58.300Z"}
+info: Connected to the database. {"timestamp":"2022-02-10T05:04:58.345Z"}
+error: 
+      status - 401
+      message - Only Admin Had this Permissions 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-10T05:13:29.928Z"}
+error: 
+      status - 401
+      message - Only Admin Had this Permissions 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-10T05:14:15.086Z"}
+error: 
+      status - 401
+      message - Authorization Failed 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-10T05:14:31.589Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":bookId" (type string) at path "_id" for model "book"
+    at model.Query.exec (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/carts/addtocart/:bookId 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-02-10T05:16:14.621Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-10T05:23:55.973Z"}
+info: Connected to the database. {"timestamp":"2022-02-10T05:23:56.020Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-10T05:25:14.458Z"}
+info: Connected to the database. {"timestamp":"2022-02-10T05:25:14.503Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/wishlist/remove 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2022-02-10T05:34:34.334Z"}
+info: Connected to the database. {"timestamp":"2022-02-10T13:27:21.330Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-10T13:31:15.443Z"}
+info: Connected to the database. {"timestamp":"2022-02-10T13:31:15.481Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-10T13:43:04.771Z"}
+info: Connected to the database. {"timestamp":"2022-02-10T13:43:04.814Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-10T13:59:51.984Z"}
+info: Connected to the database. {"timestamp":"2022-02-10T13:59:52.030Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-10T14:44:13.260Z"}
+info: Connected to the database. {"timestamp":"2022-02-10T14:44:13.324Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/carts/placeorder 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2022-02-10T14:47:33.518Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/carts/placeorder 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2022-02-10T14:55:33.057Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/carts/placeorder 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2022-02-10T14:55:39.950Z"}

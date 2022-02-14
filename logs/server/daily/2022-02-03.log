@@ -1,0 +1,250 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-03T04:29:13.832Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T04:29:13.896Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'uploads/1643862972256.jpg' 
+    url - /api/v1/users/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-03T04:36:12.262Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-03T04:41:15.606Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T04:41:15.666Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'uploads/1643863286532.jpg' 
+    url - /api/v1/users/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-03T04:41:26.540Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-03T04:42:09.838Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T04:42:09.915Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-03T04:42:41.852Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T04:42:41.906Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'uploads/1643863374725.jpg' 
+    url - /api/v1/users/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-03T04:42:54.745Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-03T04:44:20.502Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T04:44:20.559Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'uploads/1643863468241.jpg' 
+    url - /api/v1/users/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-03T04:44:28.256Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-03T04:45:48.919Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T04:45:48.987Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'uploads/1643863566078.jpg' 
+    url - /api/v1/users/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-03T04:46:06.088Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-03T04:47:42.673Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T04:47:42.730Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'uploads/1643863672104.jpg' 
+    url - /api/v1/users/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-03T04:47:52.114Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-03T04:48:34.334Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T04:48:34.381Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'uploads/1643863736979.jpg' 
+    url - /api/v1/users/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-03T04:48:56.990Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-03T04:50:56.617Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T04:50:56.673Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'uploads/1643863872152.jpg' 
+    url - /api/v1/users/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-03T04:51:12.159Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-03T04:53:42.519Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T04:53:42.581Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'uploads/1643864536302.jpg' 
+    url - /api/v1/users/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-03T05:02:16.310Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-03T05:08:59.088Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T05:08:59.161Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'uploads/1643864969065.png' 
+    url - /api/v1/users/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-03T05:09:29.071Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-03T05:11:23.691Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T05:11:23.747Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'uploads/1643865144008.png' 
+    url - /api/v1/users/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-03T05:12:24.016Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-03T05:49:51.398Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T05:49:51.455Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'uploads/1643867400732.png' 
+    url - /api/v1/users/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-03T05:50:00.740Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-03T06:05:27.887Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T06:05:27.954Z"}
+error: 
+    status - 500 
+    message - ValidationError: book validation failed: image: Cast to string failed for value "{
+  fieldname: 'image',
+  originalname: 'Screenshot from 2022-02-03 09-33-14.png',
+  encoding: '7bit',
+  mimetype: 'image/png',
+  destination: 'uploads/',
+  filename: 'de87ec5d49914322b7a3eedfe2f07743',
+  path: 'uploads/de87ec5d49914322b7a3eedfe2f07743',
+  size: 139323
+}" (type Object) at path "image"
+    at model.Document.invalidate (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/document.js:2782:32)
+    at model.$set (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/document.js:1349:12)
+    at model.$set (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/document.js:1058:16)
+    at model.Document (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/document.js:148:12)
+    at model.Model (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js:106:12)
+    at new model (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js:4911:15)
+    at /home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js:3157:22
+    at /home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js:3193:7
+    at Array.forEach (<anonymous>)
+    at /home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js:3192:15
+    at /home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/index.js:1149:10)
+    at Function.create (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js:3127:23)
+    at /home/saeb/Book_Store/Book_Store/build/services/book.service.js:35:32 
+    url - /api/v1/users/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-03T06:06:03.773Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-03T06:07:52.349Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T06:07:52.402Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-03T06:08:51.639Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T06:08:51.692Z"}
+error: 
+    status - 500 
+    message - ValidationError: book validation failed: image: Cast to string failed for value "{
+  fieldname: 'image',
+  originalname: 'Screenshot from 2022-02-03 09-33-14.png',
+  encoding: '7bit',
+  mimetype: 'image/png',
+  destination: 'uploads/',
+  filename: 'f0b8a42e03cefa7f0a932fbc52281d22',
+  path: 'uploads/f0b8a42e03cefa7f0a932fbc52281d22',
+  size: 139323
+}" (type Object) at path "image"
+    at model.Document.invalidate (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/document.js:2782:32)
+    at model.$set (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/document.js:1349:12)
+    at model.$set (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/document.js:1058:16)
+    at model.Document (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/document.js:148:12)
+    at model.Model (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js:106:12)
+    at new model (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js:4911:15)
+    at /home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js:3157:22
+    at /home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js:3193:7
+    at Array.forEach (<anonymous>)
+    at /home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js:3192:15
+    at /home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/index.js:1149:10)
+    at Function.create (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js:3127:23)
+    at /home/saeb/Book_Store/Book_Store/build/services/book.service.js:35:32 
+    url - /api/v1/users/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-03T06:08:56.889Z"}
+error: 
+    status - 500 
+    message - ValidationError: book validation failed: image: Cast to string failed for value "{
+  fieldname: 'image',
+  originalname: 'Screenshot from 2022-02-03 09-29-44.png',
+  encoding: '7bit',
+  mimetype: 'image/png',
+  destination: 'uploads/',
+  filename: '288933f104c2bfc57439a412a466306e',
+  path: 'uploads/288933f104c2bfc57439a412a466306e',
+  size: 608320
+}" (type Object) at path "image"
+    at model.Document.invalidate (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/document.js:2782:32)
+    at model.$set (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/document.js:1349:12)
+    at model.$set (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/document.js:1058:16)
+    at model.Document (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/document.js:148:12)
+    at model.Model (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js:106:12)
+    at new model (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js:4911:15)
+    at /home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js:3157:22
+    at /home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js:3193:7
+    at Array.forEach (<anonymous>)
+    at /home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js:3192:15
+    at /home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/index.js:1149:10)
+    at Function.create (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js:3127:23)
+    at /home/saeb/Book_Store/Book_Store/build/services/book.service.js:35:32 
+    url - /api/v1/users/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-03T06:09:39.050Z"}
+error: 
+    status - 500 
+    message - ValidationError: book validation failed: image: Cast to string failed for value "{
+  fieldname: 'image',
+  originalname: 'Screenshot from 2022-02-03 09-29-44.png',
+  encoding: '7bit',
+  mimetype: 'image/png',
+  destination: 'uploads/',
+  filename: 'e32ef998a4722c681ed06515413420df',
+  path: 'uploads/e32ef998a4722c681ed06515413420df',
+  size: 608320
+}" (type Object) at path "image"
+    at model.Document.invalidate (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/document.js:2782:32)
+    at model.$set (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/document.js:1349:12)
+    at model.$set (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/document.js:1058:16)
+    at model.Document (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/document.js:148:12)
+    at model.Model (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js:106:12)
+    at new model (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js:4911:15)
+    at /home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js:3157:22
+    at /home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js:3193:7
+    at Array.forEach (<anonymous>)
+    at /home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js:3192:15
+    at /home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/index.js:1149:10)
+    at Function.create (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js:3127:23)
+    at /home/saeb/Book_Store/Book_Store/build/services/book.service.js:35:32 
+    url - /api/v1/users/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-03T06:10:06.376Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-03T06:12:57.072Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T06:12:57.132Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-03T06:17:21.280Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T06:17:21.348Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-03T06:21:34.038Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T06:21:34.089Z"}

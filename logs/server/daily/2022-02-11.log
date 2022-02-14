@@ -1,0 +1,47 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-11T04:32:01.105Z"}
+info: Connected to the database. {"timestamp":"2022-02-11T04:32:01.164Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-11T04:32:33.657Z"}
+info: Connected to the database. {"timestamp":"2022-02-11T04:32:33.703Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/carts/placeorder 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2022-02-11T04:35:36.772Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":bookId" (type string) at path "_id" for model "book"
+    at model.Query.exec (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/carts/addtocart/:bookId 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-02-11T04:49:38.886Z"}
+error: 
+      status - 401
+      message - Authorization Failed 
+      url - /api/v1/carts/viewcart 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-02-11T04:51:37.495Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-11T04:59:11.091Z"}
+info: Connected to the database. {"timestamp":"2022-02-11T04:59:11.149Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-11T05:07:39.661Z"}
+info: Connected to the database. {"timestamp":"2022-02-11T05:07:39.710Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-11T05:16:38.583Z"}
+info: Connected to the database. {"timestamp":"2022-02-11T05:16:38.626Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-11T05:21:06.939Z"}
+info: Connected to the database. {"timestamp":"2022-02-11T05:21:06.980Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-11T05:41:53.278Z"}
+info: Connected to the database. {"timestamp":"2022-02-11T05:41:53.334Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-11T05:43:22.189Z"}
+info: Connected to the database. {"timestamp":"2022-02-11T05:43:22.258Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-11T05:54:13.388Z"}
+info: Connected to the database. {"timestamp":"2022-02-11T05:54:13.439Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-11T06:09:24.924Z"}
+info: Connected to the database. {"timestamp":"2022-02-11T06:09:24.992Z"}
+info: Connected to the database. {"timestamp":"2022-02-11T06:16:39.293Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-11T06:17:17.593Z"}
+info: Connected to the database. {"timestamp":"2022-02-11T06:17:17.677Z"}

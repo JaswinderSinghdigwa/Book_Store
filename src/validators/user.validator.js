@@ -1,3 +1,5 @@
+/* eslint-disable prettier/prettier */
+/* eslint-disable max-len */
 import Joi from '@hapi/joi';
 
 export const newUserValidator = (req, res, next) => {

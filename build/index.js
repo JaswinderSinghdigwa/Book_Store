@@ -17,6 +17,10 @@ var _cors = _interopRequireDefault(require("cors"));
 
 var _helmet = _interopRequireDefault(require("helmet"));
 
+var _swaggerUiExpress = _interopRequireDefault(require("swagger-ui-express"));
+
+var _swagger = _interopRequireDefault(require("../swagger/swagger.json"));
+
 var _routes = _interopRequireDefault(require("./routes"));
 
 var _database = _interopRequireDefault(require("./config/database"));
@@ -31,6 +35,9 @@ function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "functio
 
 function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") { return { "default": obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj["default"] = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
 
+/* eslint-disable max-len */
+
+/* eslint-disable prettier/prettier */
 _dotenv["default"].config();
 
 var app = (0, _express["default"])();
@@ -48,6 +55,8 @@ app.use((0, _morgan["default"])('combined', {
 }));
 (0, _database["default"])();
 app.use("/api/".concat(api_version), (0, _routes["default"])());
+app.use('/uploads', _express["default"]["static"]('uploads'));
+app.use("/api/".concat(api_version, "/docs"), _swaggerUiExpress["default"].serve, _swaggerUiExpress["default"].setup(_swagger["default"]));
 app.use(_error.appErrorHandler);
 app.use(_error.genericErrorHandler);
 app.use(_error.notFound);

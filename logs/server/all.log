@@ -378,3 +378,1516 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-29T0
 info: Connected to the database. {"timestamp":"2022-01-29T06:47:35.384Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T10:54:09.948Z"}
 info: Connected to the database. {"timestamp":"2022-02-01T10:54:10.031Z"}
+error: uncaughtException: bcrypt is not defined
+ReferenceError: bcrypt is not defined
+    at _callee$ (/home/saeb/Book_Store/Book_Store/build/services/user.service.js:39:15)
+    at tryCatch (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at /home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12
+    at /home/saeb/Book_Store/Book_Store/build/services/user.service.js:60:19
+    at new Promise (<anonymous>)
+    at Object.newUser (/home/saeb/Book_Store/Book_Store/build/services/user.service.js:31:10)
+    at newUser (/home/saeb/Book_Store/Book_Store/build/controllers/user.controller.js:81:17)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/route.js:137:13)
+    at /home/saeb/Book_Store/Book_Store/build/middlewares/auth.middleware.js:12:5 {"date":"Tue Feb 01 2022 18:29:47 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0.82,1.75,1.78],"uptime":8144.17},"process":{"argv":["/home/saeb/.nvm/versions/node/v16.8.0/bin/node","/home/saeb/Book_Store/Book_Store/build/index.js"],"cwd":"/home/saeb/Book_Store/Book_Store","execPath":"/home/saeb/.nvm/versions/node/v16.8.0/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18418398,"external":19369702,"heapTotal":23662592,"heapUsed":21685200,"rss":50659328},"pid":9913,"uid":1000,"version":"v16.8.0"},"stack":"ReferenceError: bcrypt is not defined\n    at _callee$ (/home/saeb/Book_Store/Book_Store/build/services/user.service.js:39:15)\n    at tryCatch (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:63:40)\n    at Generator.invoke [as _invoke] (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:294:22)\n    at Generator.next (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:119:21)\n    at asyncGeneratorStep (/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)\n    at _next (/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)\n    at /home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at /home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12\n    at /home/saeb/Book_Store/Book_Store/build/services/user.service.js:60:19\n    at new Promise (<anonymous>)\n    at Object.newUser (/home/saeb/Book_Store/Book_Store/build/services/user.service.js:31:10)\n    at newUser (/home/saeb/Book_Store/Book_Store/build/controllers/user.controller.js:81:17)\n    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/route.js:137:13)\n    at /home/saeb/Book_Store/Book_Store/build/middlewares/auth.middleware.js:12:5","timestamp":"2022-02-01T12:59:47.451Z","trace":[{"column":15,"file":"/home/saeb/Book_Store/Book_Store/build/services/user.service.js","function":"_callee$","line":39,"method":null,"native":false},{"column":40,"file":"/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js","function":"tryCatch","line":63,"method":null,"native":false},{"column":22,"file":"/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js","function":"Generator.invoke [as _invoke]","line":294,"method":"invoke [as _invoke]","native":false},{"column":21,"file":"/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js","function":"Generator.next","line":119,"method":"next","native":false},{"column":24,"file":"/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js","function":"_next","line":25,"method":null,"native":false},{"column":7,"file":"/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js","function":null,"line":32,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js","function":null,"line":21,"method":null,"native":false},{"column":19,"file":"/home/saeb/Book_Store/Book_Store/build/services/user.service.js","function":null,"line":60,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":10,"file":"/home/saeb/Book_Store/Book_Store/build/services/user.service.js","function":"Object.newUser","line":31,"method":"newUser","native":false},{"column":17,"file":"/home/saeb/Book_Store/Book_Store/build/controllers/user.controller.js","function":"newUser","line":81,"method":null,"native":false},{"column":5,"file":"/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/route.js","function":"next","line":137,"method":null,"native":false},{"column":5,"file":"/home/saeb/Book_Store/Book_Store/build/middlewares/auth.middleware.js","function":null,"line":12,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T13:02:06.290Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T13:02:06.337Z"}
+error: uncaughtException: bcrypt is not defined
+ReferenceError: bcrypt is not defined
+    at _callee$ (/home/saeb/Book_Store/Book_Store/build/services/user.service.js:39:15)
+    at tryCatch (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at /home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12
+    at /home/saeb/Book_Store/Book_Store/build/services/user.service.js:60:19
+    at new Promise (<anonymous>)
+    at Object.newUser (/home/saeb/Book_Store/Book_Store/build/services/user.service.js:31:10)
+    at newUser (/home/saeb/Book_Store/Book_Store/build/controllers/user.controller.js:66:17)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/route.js:137:13)
+    at /home/saeb/Book_Store/Book_Store/build/middlewares/auth.middleware.js:12:5 {"date":"Tue Feb 01 2022 18:32:11 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[2.45,2.05,1.89],"uptime":8287.91},"process":{"argv":["/home/saeb/.nvm/versions/node/v16.8.0/bin/node","/home/saeb/Book_Store/Book_Store/build/index.js"],"cwd":"/home/saeb/Book_Store/Book_Store","execPath":"/home/saeb/.nvm/versions/node/v16.8.0/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18366354,"external":24323820,"heapTotal":39391232,"heapUsed":21396536,"rss":80252928},"pid":49560,"uid":1000,"version":"v16.8.0"},"stack":"ReferenceError: bcrypt is not defined\n    at _callee$ (/home/saeb/Book_Store/Book_Store/build/services/user.service.js:39:15)\n    at tryCatch (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:63:40)\n    at Generator.invoke [as _invoke] (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:294:22)\n    at Generator.next (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:119:21)\n    at asyncGeneratorStep (/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)\n    at _next (/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)\n    at /home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at /home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12\n    at /home/saeb/Book_Store/Book_Store/build/services/user.service.js:60:19\n    at new Promise (<anonymous>)\n    at Object.newUser (/home/saeb/Book_Store/Book_Store/build/services/user.service.js:31:10)\n    at newUser (/home/saeb/Book_Store/Book_Store/build/controllers/user.controller.js:66:17)\n    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/route.js:137:13)\n    at /home/saeb/Book_Store/Book_Store/build/middlewares/auth.middleware.js:12:5","timestamp":"2022-02-01T13:02:11.193Z","trace":[{"column":15,"file":"/home/saeb/Book_Store/Book_Store/build/services/user.service.js","function":"_callee$","line":39,"method":null,"native":false},{"column":40,"file":"/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js","function":"tryCatch","line":63,"method":null,"native":false},{"column":22,"file":"/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js","function":"Generator.invoke [as _invoke]","line":294,"method":"invoke [as _invoke]","native":false},{"column":21,"file":"/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js","function":"Generator.next","line":119,"method":"next","native":false},{"column":24,"file":"/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js","function":"_next","line":25,"method":null,"native":false},{"column":7,"file":"/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js","function":null,"line":32,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js","function":null,"line":21,"method":null,"native":false},{"column":19,"file":"/home/saeb/Book_Store/Book_Store/build/services/user.service.js","function":null,"line":60,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":10,"file":"/home/saeb/Book_Store/Book_Store/build/services/user.service.js","function":"Object.newUser","line":31,"method":"newUser","native":false},{"column":17,"file":"/home/saeb/Book_Store/Book_Store/build/controllers/user.controller.js","function":"newUser","line":66,"method":null,"native":false},{"column":5,"file":"/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/route.js","function":"next","line":137,"method":null,"native":false},{"column":5,"file":"/home/saeb/Book_Store/Book_Store/build/middlewares/auth.middleware.js","function":null,"line":12,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T13:03:20.067Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T13:03:20.116Z"}
+error: uncaughtException: resolve is not defined
+ReferenceError: resolve is not defined
+    at /home/saeb/Book_Store/Book_Store/build/services/user.service.js:91:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Tue Feb 01 2022 18:35:55 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[2.29,2.09,1.94],"uptime":8512.14},"process":{"argv":["/home/saeb/.nvm/versions/node/v16.8.0/bin/node","/home/saeb/Book_Store/Book_Store/build/index.js"],"cwd":"/home/saeb/Book_Store/Book_Store","execPath":"/home/saeb/.nvm/versions/node/v16.8.0/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18282374,"external":19161982,"heapTotal":24711168,"heapUsed":22556680,"rss":67178496},"pid":50013,"uid":1000,"version":"v16.8.0"},"stack":"ReferenceError: resolve is not defined\n    at /home/saeb/Book_Store/Book_Store/build/services/user.service.js:91:5\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2022-02-01T13:05:55.420Z","trace":[{"column":5,"file":"/home/saeb/Book_Store/Book_Store/build/services/user.service.js","function":null,"line":91,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T13:08:09.717Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T13:08:09.797Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T13:09:03.421Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T13:09:03.499Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T13:45:45.128Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T13:45:45.192Z"}
+error: 
+    status - 500 
+    message - ReferenceError: jwt is not defined
+    at _callee2$ (/home/saeb/Book_Store/Book_Store/build/services/user.service.js:106:13)
+    at tryCatch (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-01T13:46:29.619Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T13:47:32.372Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T13:47:32.430Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (/home/saeb/Book_Store/Book_Store/node_modules/jsonwebtoken/sign.js:107:20)
+    at _callee2$ (/home/saeb/Book_Store/Book_Store/build/services/user.service.js:108:46)
+    at tryCatch (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-01T13:47:38.638Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T13:49:39.566Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T13:49:39.621Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T14:06:31.323Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T14:06:31.377Z"}
+error: 
+    status - 500 
+    message - Error: data and hash arguments required
+    at Object.compare (/home/saeb/Book_Store/Book_Store/node_modules/bcrypt/bcrypt.js:208:17)
+    at /home/saeb/Book_Store/Book_Store/node_modules/bcrypt/promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (/home/saeb/Book_Store/Book_Store/node_modules/bcrypt/promises.js:20:12)
+    at Object.compare (/home/saeb/Book_Store/Book_Store/node_modules/bcrypt/bcrypt.js:204:25)
+    at _callee2$ (/home/saeb/Book_Store/Book_Store/build/services/user.service.js:98:39)
+    at tryCatch (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgotpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-01T14:06:52.110Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T14:08:06.899Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T14:08:06.971Z"}
+error: 
+    status - 500 
+    message - Error: data and hash arguments required
+    at Object.compare (/home/saeb/Book_Store/Book_Store/node_modules/bcrypt/bcrypt.js:208:17)
+    at /home/saeb/Book_Store/Book_Store/node_modules/bcrypt/promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (/home/saeb/Book_Store/Book_Store/node_modules/bcrypt/promises.js:20:12)
+    at Object.compare (/home/saeb/Book_Store/Book_Store/node_modules/bcrypt/bcrypt.js:204:25)
+    at _callee2$ (/home/saeb/Book_Store/Book_Store/build/services/user.service.js:98:39)
+    at tryCatch (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgotpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-01T14:08:13.141Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T14:09:15.141Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T14:09:15.191Z"}
+error: 
+    status - 500 
+    message - Error: data and hash arguments required
+    at Object.compare (/home/saeb/Book_Store/Book_Store/node_modules/bcrypt/bcrypt.js:208:17)
+    at /home/saeb/Book_Store/Book_Store/node_modules/bcrypt/promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (/home/saeb/Book_Store/Book_Store/node_modules/bcrypt/promises.js:20:12)
+    at Object.compare (/home/saeb/Book_Store/Book_Store/node_modules/bcrypt/bcrypt.js:204:25)
+    at _callee2$ (/home/saeb/Book_Store/Book_Store/build/services/user.service.js:98:39)
+    at tryCatch (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgotpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-01T14:09:17.787Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T14:10:34.027Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T14:10:34.096Z"}
+error: uncaughtException: sendResetEmail is not defined
+ReferenceError: sendResetEmail is not defined
+    at /home/saeb/Book_Store/Book_Store/build/services/user.service.js:147:26
+    at /home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {"date":"Tue Feb 01 2022 19:40:37 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[5.54,3.12,2.72],"uptime":12394.57},"process":{"argv":["/home/saeb/.nvm/versions/node/v16.8.0/bin/node","/home/saeb/Book_Store/Book_Store/build/index.js"],"cwd":"/home/saeb/Book_Store/Book_Store","execPath":"/home/saeb/.nvm/versions/node/v16.8.0/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18374556,"external":19255698,"heapTotal":58265600,"heapUsed":22997272,"rss":81977344},"pid":62968,"uid":1000,"version":"v16.8.0"},"stack":"ReferenceError: sendResetEmail is not defined\n    at /home/saeb/Book_Store/Book_Store/build/services/user.service.js:147:26\n    at /home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js:5074:18\n    at processTicksAndRejections (node:internal/process/task_queues:78:11)","timestamp":"2022-02-01T14:10:37.847Z","trace":[{"column":26,"file":"/home/saeb/Book_Store/Book_Store/build/services/user.service.js","function":null,"line":147,"method":null,"native":false},{"column":18,"file":"/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js","function":null,"line":5074,"method":null,"native":false},{"column":11,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":78,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T14:18:12.907Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T14:18:12.976Z"}
+error: uncaughtException: sendResetEmail is not defined
+ReferenceError: sendResetEmail is not defined
+    at /home/saeb/Book_Store/Book_Store/build/services/user.service.js:147:26
+    at /home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {"date":"Tue Feb 01 2022 19:48:18 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[1.54,2.72,2.85],"uptime":12854.97},"process":{"argv":["/home/saeb/.nvm/versions/node/v16.8.0/bin/node","/home/saeb/Book_Store/Book_Store/build/index.js"],"cwd":"/home/saeb/Book_Store/Book_Store","execPath":"/home/saeb/.nvm/versions/node/v16.8.0/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18375002,"external":19255698,"heapTotal":58527744,"heapUsed":23207976,"rss":82604032},"pid":64799,"uid":1000,"version":"v16.8.0"},"stack":"ReferenceError: sendResetEmail is not defined\n    at /home/saeb/Book_Store/Book_Store/build/services/user.service.js:147:26\n    at /home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js:5074:18\n    at processTicksAndRejections (node:internal/process/task_queues:78:11)","timestamp":"2022-02-01T14:18:18.249Z","trace":[{"column":26,"file":"/home/saeb/Book_Store/Book_Store/build/services/user.service.js","function":null,"line":147,"method":null,"native":false},{"column":18,"file":"/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js","function":null,"line":5074,"method":null,"native":false},{"column":11,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":78,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T14:21:35.629Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T14:21:35.678Z"}
+error: uncaughtException: Missing credentials for "PLAIN"
+Error: Missing credentials for "PLAIN"
+    at SMTPConnection._formatError (/home/saeb/Book_Store/Book_Store/node_modules/nodemailer/lib/smtp-connection/index.js:784:19)
+    at SMTPConnection.login (/home/saeb/Book_Store/Book_Store/node_modules/nodemailer/lib/smtp-connection/index.js:438:38)
+    at /home/saeb/Book_Store/Book_Store/node_modules/nodemailer/lib/smtp-transport/index.js:271:32
+    at SMTPConnection.<anonymous> (/home/saeb/Book_Store/Book_Store/node_modules/nodemailer/lib/smtp-connection/index.js:209:17)
+    at Object.onceWrapper (node:events:513:28)
+    at SMTPConnection.emit (node:events:394:28)
+    at SMTPConnection._actionEHLO (/home/saeb/Book_Store/Book_Store/node_modules/nodemailer/lib/smtp-connection/index.js:1319:14)
+    at SMTPConnection._processResponse (/home/saeb/Book_Store/Book_Store/node_modules/nodemailer/lib/smtp-connection/index.js:947:20)
+    at SMTPConnection._onData (/home/saeb/Book_Store/Book_Store/node_modules/nodemailer/lib/smtp-connection/index.js:749:14)
+    at TLSSocket.SMTPConnection._onSocketData (/home/saeb/Book_Store/Book_Store/node_modules/nodemailer/lib/smtp-connection/index.js:189:44)
+    at TLSSocket.emit (node:events:394:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at TLSSocket.Readable.push (node:internal/streams/readable:228:10)
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:199:23) {"date":"Tue Feb 01 2022 19:51:41 GMT+0530 (India Standard Time)","error":{"code":"EAUTH","command":"API"},"exception":true,"os":{"loadavg":[3.77,3.08,2.95],"uptime":13058.15},"process":{"argv":["/home/saeb/.nvm/versions/node/v16.8.0/bin/node","/home/saeb/Book_Store/Book_Store/build/index.js"],"cwd":"/home/saeb/Book_Store/Book_Store","execPath":"/home/saeb/.nvm/versions/node/v16.8.0/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18382424,"external":25291651,"heapTotal":59314176,"heapUsed":24930312,"rss":84619264},"pid":66056,"uid":1000,"version":"v16.8.0"},"stack":"Error: Missing credentials for \"PLAIN\"\n    at SMTPConnection._formatError (/home/saeb/Book_Store/Book_Store/node_modules/nodemailer/lib/smtp-connection/index.js:784:19)\n    at SMTPConnection.login (/home/saeb/Book_Store/Book_Store/node_modules/nodemailer/lib/smtp-connection/index.js:438:38)\n    at /home/saeb/Book_Store/Book_Store/node_modules/nodemailer/lib/smtp-transport/index.js:271:32\n    at SMTPConnection.<anonymous> (/home/saeb/Book_Store/Book_Store/node_modules/nodemailer/lib/smtp-connection/index.js:209:17)\n    at Object.onceWrapper (node:events:513:28)\n    at SMTPConnection.emit (node:events:394:28)\n    at SMTPConnection._actionEHLO (/home/saeb/Book_Store/Book_Store/node_modules/nodemailer/lib/smtp-connection/index.js:1319:14)\n    at SMTPConnection._processResponse (/home/saeb/Book_Store/Book_Store/node_modules/nodemailer/lib/smtp-connection/index.js:947:20)\n    at SMTPConnection._onData (/home/saeb/Book_Store/Book_Store/node_modules/nodemailer/lib/smtp-connection/index.js:749:14)\n    at TLSSocket.SMTPConnection._onSocketData (/home/saeb/Book_Store/Book_Store/node_modules/nodemailer/lib/smtp-connection/index.js:189:44)\n    at TLSSocket.emit (node:events:394:28)\n    at addChunk (node:internal/streams/readable:315:12)\n    at readableAddChunk (node:internal/streams/readable:289:9)\n    at TLSSocket.Readable.push (node:internal/streams/readable:228:10)\n    at TLSWrap.onStreamRead (node:internal/stream_base_commons:199:23)","timestamp":"2022-02-01T14:21:41.424Z","trace":[{"column":19,"file":"/home/saeb/Book_Store/Book_Store/node_modules/nodemailer/lib/smtp-connection/index.js","function":"SMTPConnection._formatError","line":784,"method":"_formatError","native":false},{"column":38,"file":"/home/saeb/Book_Store/Book_Store/node_modules/nodemailer/lib/smtp-connection/index.js","function":"SMTPConnection.login","line":438,"method":"login","native":false},{"column":32,"file":"/home/saeb/Book_Store/Book_Store/node_modules/nodemailer/lib/smtp-transport/index.js","function":null,"line":271,"method":null,"native":false},{"column":17,"file":"/home/saeb/Book_Store/Book_Store/node_modules/nodemailer/lib/smtp-connection/index.js","function":null,"line":209,"method":null,"native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":513,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"SMTPConnection.emit","line":394,"method":"emit","native":false},{"column":14,"file":"/home/saeb/Book_Store/Book_Store/node_modules/nodemailer/lib/smtp-connection/index.js","function":"SMTPConnection._actionEHLO","line":1319,"method":"_actionEHLO","native":false},{"column":20,"file":"/home/saeb/Book_Store/Book_Store/node_modules/nodemailer/lib/smtp-connection/index.js","function":"SMTPConnection._processResponse","line":947,"method":"_processResponse","native":false},{"column":14,"file":"/home/saeb/Book_Store/Book_Store/node_modules/nodemailer/lib/smtp-connection/index.js","function":"SMTPConnection._onData","line":749,"method":"_onData","native":false},{"column":44,"file":"/home/saeb/Book_Store/Book_Store/node_modules/nodemailer/lib/smtp-connection/index.js","function":"TLSSocket.SMTPConnection._onSocketData","line":189,"method":"_onSocketData","native":false},{"column":28,"file":"node:events","function":"TLSSocket.emit","line":394,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"addChunk","line":315,"method":null,"native":false},{"column":9,"file":"node:internal/streams/readable","function":"readableAddChunk","line":289,"method":null,"native":false},{"column":10,"file":"node:internal/streams/readable","function":"TLSSocket.Readable.push","line":228,"method":"push","native":false},{"column":23,"file":"node:internal/stream_base_commons","function":"TLSWrap.onStreamRead","line":199,"method":"onStreamRead","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T14:23:43.727Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T14:23:43.784Z"}
+error: uncaughtException: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials q15sm3025402pjj.19 - gsmtp
+Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials q15sm3025402pjj.19 - gsmtp
+    at SMTPConnection._formatError (/home/saeb/Book_Store/Book_Store/node_modules/nodemailer/lib/smtp-connection/index.js:784:19)
+    at SMTPConnection._actionAUTHComplete (/home/saeb/Book_Store/Book_Store/node_modules/nodemailer/lib/smtp-connection/index.js:1536:34)
+    at SMTPConnection.<anonymous> (/home/saeb/Book_Store/Book_Store/node_modules/nodemailer/lib/smtp-connection/index.js:540:26)
+    at SMTPConnection._processResponse (/home/saeb/Book_Store/Book_Store/node_modules/nodemailer/lib/smtp-connection/index.js:947:20)
+    at SMTPConnection._onData (/home/saeb/Book_Store/Book_Store/node_modules/nodemailer/lib/smtp-connection/index.js:749:14)
+    at TLSSocket.SMTPConnection._onSocketData (/home/saeb/Book_Store/Book_Store/node_modules/nodemailer/lib/smtp-connection/index.js:189:44)
+    at TLSSocket.emit (node:events:394:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at TLSSocket.Readable.push (node:internal/streams/readable:228:10)
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:199:23) {"date":"Tue Feb 01 2022 19:53:54 GMT+0530 (India Standard Time)","error":{"code":"EAUTH","command":"AUTH PLAIN","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials q15sm3025402pjj.19 - gsmtp","responseCode":535},"exception":true,"os":{"loadavg":[3.36,3.3,3.06],"uptime":13190.96},"process":{"argv":["/home/saeb/.nvm/versions/node/v16.8.0/bin/node","/home/saeb/Book_Store/Book_Store/build/index.js"],"cwd":"/home/saeb/Book_Store/Book_Store","execPath":"/home/saeb/.nvm/versions/node/v16.8.0/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18381221,"external":19275463,"heapTotal":26546176,"heapUsed":24580856,"rss":69013504},"pid":66652,"uid":1000,"version":"v16.8.0"},"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials q15sm3025402pjj.19 - gsmtp\n    at SMTPConnection._formatError (/home/saeb/Book_Store/Book_Store/node_modules/nodemailer/lib/smtp-connection/index.js:784:19)\n    at SMTPConnection._actionAUTHComplete (/home/saeb/Book_Store/Book_Store/node_modules/nodemailer/lib/smtp-connection/index.js:1536:34)\n    at SMTPConnection.<anonymous> (/home/saeb/Book_Store/Book_Store/node_modules/nodemailer/lib/smtp-connection/index.js:540:26)\n    at SMTPConnection._processResponse (/home/saeb/Book_Store/Book_Store/node_modules/nodemailer/lib/smtp-connection/index.js:947:20)\n    at SMTPConnection._onData (/home/saeb/Book_Store/Book_Store/node_modules/nodemailer/lib/smtp-connection/index.js:749:14)\n    at TLSSocket.SMTPConnection._onSocketData (/home/saeb/Book_Store/Book_Store/node_modules/nodemailer/lib/smtp-connection/index.js:189:44)\n    at TLSSocket.emit (node:events:394:28)\n    at addChunk (node:internal/streams/readable:315:12)\n    at readableAddChunk (node:internal/streams/readable:289:9)\n    at TLSSocket.Readable.push (node:internal/streams/readable:228:10)\n    at TLSWrap.onStreamRead (node:internal/stream_base_commons:199:23)","timestamp":"2022-02-01T14:23:54.243Z","trace":[{"column":19,"file":"/home/saeb/Book_Store/Book_Store/node_modules/nodemailer/lib/smtp-connection/index.js","function":"SMTPConnection._formatError","line":784,"method":"_formatError","native":false},{"column":34,"file":"/home/saeb/Book_Store/Book_Store/node_modules/nodemailer/lib/smtp-connection/index.js","function":"SMTPConnection._actionAUTHComplete","line":1536,"method":"_actionAUTHComplete","native":false},{"column":26,"file":"/home/saeb/Book_Store/Book_Store/node_modules/nodemailer/lib/smtp-connection/index.js","function":null,"line":540,"method":null,"native":false},{"column":20,"file":"/home/saeb/Book_Store/Book_Store/node_modules/nodemailer/lib/smtp-connection/index.js","function":"SMTPConnection._processResponse","line":947,"method":"_processResponse","native":false},{"column":14,"file":"/home/saeb/Book_Store/Book_Store/node_modules/nodemailer/lib/smtp-connection/index.js","function":"SMTPConnection._onData","line":749,"method":"_onData","native":false},{"column":44,"file":"/home/saeb/Book_Store/Book_Store/node_modules/nodemailer/lib/smtp-connection/index.js","function":"TLSSocket.SMTPConnection._onSocketData","line":189,"method":"_onSocketData","native":false},{"column":28,"file":"node:events","function":"TLSSocket.emit","line":394,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"addChunk","line":315,"method":null,"native":false},{"column":9,"file":"node:internal/streams/readable","function":"readableAddChunk","line":289,"method":null,"native":false},{"column":10,"file":"node:internal/streams/readable","function":"TLSSocket.Readable.push","line":228,"method":"push","native":false},{"column":23,"file":"node:internal/stream_base_commons","function":"TLSWrap.onStreamRead","line":199,"method":"onStreamRead","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T14:24:53.936Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T14:24:53.983Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T14:38:50.434Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T14:38:50.485Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T14:43:01.343Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T14:43:01.402Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T14:44:10.525Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T14:44:10.584Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T14:46:02.004Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T14:46:02.063Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T14:46:51.511Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T14:46:51.563Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T14:47:51.638Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T14:47:51.688Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T14:49:46.154Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T14:49:46.207Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T14:57:19.526Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T14:57:19.583Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T15:00:53.994Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T15:00:54.044Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T15:02:48.514Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T15:02:48.573Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T15:42:26.576Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T15:42:26.639Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T16:07:15.357Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T16:07:15.412Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T16:11:47.310Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T16:11:47.362Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T16:13:23.191Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T16:13:23.301Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T16:18:37.351Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T16:18:37.413Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T16:19:11.566Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T16:19:11.613Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T16:19:50.766Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T16:19:50.876Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T16:20:49.849Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T16:20:49.892Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T16:21:37.346Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T16:21:37.395Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T16:22:25.320Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T16:22:25.372Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T03:39:35.281Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T03:39:35.318Z"}
+error: 
+    status - 500 
+    message - ReferenceError: bearer is not defined
+    at _callee$ (/home/saeb/Book_Store/Book_Store/build/middlewares/auth.middleware.js:87:20)
+    at tryCatch (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at /home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12
+    at auth (/home/saeb/Book_Store/Book_Store/build/middlewares/auth.middleware.js:119:17)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at /home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:341:12) 
+    url - /api/v1/users/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-02T03:40:41.930Z"}
+error: 
+    status - 500 
+    message - ReferenceError: bearer is not defined
+    at _callee$ (/home/saeb/Book_Store/Book_Store/build/middlewares/auth.middleware.js:87:20)
+    at tryCatch (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at /home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12
+    at auth (/home/saeb/Book_Store/Book_Store/build/middlewares/auth.middleware.js:119:17)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at /home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:341:12) 
+    url - /api/v1/users/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-02T03:41:23.633Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T03:41:34.594Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T03:41:34.752Z"}
+error: 
+      status - 401
+      message - Only Admin Had this Permissions 
+      url - /api/v1/users/addbook 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-02T03:41:52.291Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T03:42:26.020Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T03:42:26.057Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T03:53:22.963Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T03:53:23.018Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T04:05:28.344Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T04:05:28.393Z"}
+error: 
+    status - 500 
+    message - ReferenceError: then is not defined
+    at Object.updatebook (/home/saeb/Book_Store/Book_Store/build/services/book.service.js:87:3)
+    at updatebook (/home/saeb/Book_Store/Book_Store/build/controllers/bookstore.controller.js:133:17)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/route.js:137:13)
+    at verifyRole (/home/saeb/Book_Store/Book_Store/build/middlewares/auth.middleware.js:46:5)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/route.js:137:13)
+    at /home/saeb/Book_Store/Book_Store/build/middlewares/auth.middleware.js:98:17
+    at /home/saeb/Book_Store/Book_Store/node_modules/jsonwebtoken/verify.js:223:12
+    at getSecret (/home/saeb/Book_Store/Book_Store/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/home/saeb/Book_Store/Book_Store/node_modules/jsonwebtoken/verify.js:94:10)
+    at _callee$ (/home/saeb/Book_Store/Book_Store/build/middlewares/auth.middleware.js:90:38)
+    at tryCatch (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24) 
+    url - /api/v1/users/updatebook/61f9fda4f30113381f08381a 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-02T04:10:49.534Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T04:11:23.805Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T04:11:23.852Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'then' of undefined
+    at updatebook (/home/saeb/Book_Store/Book_Store/build/controllers/bookstore.controller.js:133:33)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/route.js:137:13)
+    at verifyRole (/home/saeb/Book_Store/Book_Store/build/middlewares/auth.middleware.js:46:5)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/route.js:137:13)
+    at /home/saeb/Book_Store/Book_Store/build/middlewares/auth.middleware.js:98:17
+    at /home/saeb/Book_Store/Book_Store/node_modules/jsonwebtoken/verify.js:223:12
+    at getSecret (/home/saeb/Book_Store/Book_Store/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/home/saeb/Book_Store/Book_Store/node_modules/jsonwebtoken/verify.js:94:10)
+    at _callee$ (/home/saeb/Book_Store/Book_Store/build/middlewares/auth.middleware.js:90:38)
+    at tryCatch (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9) 
+    url - /api/v1/users/updatebook/61f9fda4f30113381f08381a 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-02T04:11:30.391Z"}
+error: uncaughtException: reject is not defined
+ReferenceError: reject is not defined
+    at /home/saeb/Book_Store/Book_Store/build/services/book.service.js:130:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Wed Feb 02 2022 09:41:30 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[1.12,1.18,1.46],"uptime":4399.48},"process":{"argv":["/home/saeb/.nvm/versions/node/v16.8.0/bin/node","/home/saeb/Book_Store/Book_Store/build/index.js"],"cwd":"/home/saeb/Book_Store/Book_Store","execPath":"/home/saeb/.nvm/versions/node/v16.8.0/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18384196,"external":25310595,"heapTotal":59838464,"heapUsed":24467792,"rss":85008384},"pid":20338,"uid":1000,"version":"v16.8.0"},"stack":"ReferenceError: reject is not defined\n    at /home/saeb/Book_Store/Book_Store/build/services/book.service.js:130:5\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2022-02-02T04:11:30.493Z","trace":[{"column":5,"file":"/home/saeb/Book_Store/Book_Store/build/services/book.service.js","function":null,"line":130,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T04:12:16.511Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T04:12:16.551Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T04:25:34.551Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T04:25:34.592Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T04:30:04.742Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T04:30:04.786Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T04:35:14.939Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T04:35:14.979Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T04:35:46.075Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T04:35:46.114Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T04:36:30.877Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T04:36:30.938Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T04:37:19.472Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T04:37:19.527Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T04:38:56.414Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T04:38:56.452Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T04:41:11.379Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T04:41:11.418Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T04:47:15.576Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T04:47:15.625Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T04:50:37.010Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T04:50:37.058Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T04:59:35.738Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T04:59:35.776Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T05:00:37.804Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T05:00:37.842Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T05:01:23.384Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T05:01:23.429Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T05:10:11.495Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T05:10:11.537Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T05:11:22.704Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T05:11:22.744Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T05:12:09.185Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T05:12:09.221Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T05:13:14.058Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T05:13:14.097Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T05:15:50.585Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T05:15:50.627Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T05:16:54.101Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T05:16:54.142Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T05:18:45.140Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T05:18:45.177Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T05:19:38.189Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T05:19:38.232Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T05:21:20.813Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T05:21:20.861Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T05:22:29.358Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T05:22:29.412Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T05:45:20.230Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T05:45:20.276Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T05:53:13.161Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T05:53:13.203Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T05:54:23.899Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T05:54:23.938Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T05:55:09.716Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T05:55:09.753Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T06:02:08.498Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T06:02:08.546Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T06:32:09.729Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T06:32:09.793Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T06:36:18.303Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T06:36:18.364Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T06:37:32.689Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T06:37:32.755Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T06:40:15.442Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T06:40:15.490Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T06:41:08.952Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T06:41:09.020Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T06:42:50.238Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T06:42:50.289Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T08:43:16.264Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T08:43:16.308Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/findallbooks 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-02-02T08:44:43.246Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T08:45:31.439Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T08:45:31.479Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ id: undefined }" (type Object) at path "_id" for model "book"
+    at model.Query.exec (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/query.js:4592:15)
+    at /home/saeb/Book_Store/Book_Store/build/services/book.service.js:90:35
+    at new Promise (<anonymous>)
+    at Object.findBookById (/home/saeb/Book_Store/Book_Store/build/services/book.service.js:89:10)
+    at findBookById (/home/saeb/Book_Store/Book_Store/build/controllers/bookstore.controller.js:120:15)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/route.js:137:13)
+    at /home/saeb/Book_Store/Book_Store/build/middlewares/auth.middleware.js:98:17
+    at /home/saeb/Book_Store/Book_Store/node_modules/jsonwebtoken/verify.js:223:12
+    at getSecret (/home/saeb/Book_Store/Book_Store/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/home/saeb/Book_Store/Book_Store/node_modules/jsonwebtoken/verify.js:94:10)
+    at _callee$ (/home/saeb/Book_Store/Book_Store/build/middlewares/auth.middleware.js:90:38)
+    at tryCatch (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:119:21) 
+    url - /api/v1/users/findbookbyid/61fa1aa38e2d229d03c60449 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-02T08:46:36.688Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ id: undefined }" (type Object) at path "_id" for model "book"
+    at model.Query.exec (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/query.js:4592:15)
+    at /home/saeb/Book_Store/Book_Store/build/services/book.service.js:90:35
+    at new Promise (<anonymous>)
+    at Object.findBookById (/home/saeb/Book_Store/Book_Store/build/services/book.service.js:89:10)
+    at findBookById (/home/saeb/Book_Store/Book_Store/build/controllers/bookstore.controller.js:120:15)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/route.js:137:13)
+    at /home/saeb/Book_Store/Book_Store/build/middlewares/auth.middleware.js:98:17
+    at /home/saeb/Book_Store/Book_Store/node_modules/jsonwebtoken/verify.js:223:12
+    at getSecret (/home/saeb/Book_Store/Book_Store/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/home/saeb/Book_Store/Book_Store/node_modules/jsonwebtoken/verify.js:94:10)
+    at _callee$ (/home/saeb/Book_Store/Book_Store/build/middlewares/auth.middleware.js:90:38)
+    at tryCatch (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:119:21) 
+    url - /api/v1/users/findbookbyid/61fa1aa38e2d229d03c60449 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-02T08:47:26.093Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T08:47:34.593Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T08:47:34.634Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T08:50:07.060Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T08:50:07.096Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T08:51:34.144Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T08:51:34.188Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":bookid" (type string) at path "_id" for model "book"
+    at model.Query.exec (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/query.js:4592:15)
+    at /home/saeb/Book_Store/Book_Store/build/services/book.service.js:92:38
+    at new Promise (<anonymous>)
+    at Object.findBookById (/home/saeb/Book_Store/Book_Store/build/services/book.service.js:89:10)
+    at findBookById (/home/saeb/Book_Store/Book_Store/build/controllers/bookstore.controller.js:120:15)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/route.js:137:13)
+    at /home/saeb/Book_Store/Book_Store/build/middlewares/auth.middleware.js:98:17
+    at /home/saeb/Book_Store/Book_Store/node_modules/jsonwebtoken/verify.js:223:12
+    at getSecret (/home/saeb/Book_Store/Book_Store/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/home/saeb/Book_Store/Book_Store/node_modules/jsonwebtoken/verify.js:94:10)
+    at _callee$ (/home/saeb/Book_Store/Book_Store/build/middlewares/auth.middleware.js:90:38)
+    at tryCatch (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:119:21) 
+    url - /api/v1/users/findbookbyid/:bookid 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-02T08:51:36.932Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-03T04:29:13.832Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T04:29:13.896Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'uploads/1643862972256.jpg' 
+    url - /api/v1/users/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-03T04:36:12.262Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-03T04:41:15.606Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T04:41:15.666Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'uploads/1643863286532.jpg' 
+    url - /api/v1/users/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-03T04:41:26.540Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-03T04:42:09.838Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T04:42:09.915Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-03T04:42:41.852Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T04:42:41.906Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'uploads/1643863374725.jpg' 
+    url - /api/v1/users/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-03T04:42:54.745Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-03T04:44:20.502Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T04:44:20.559Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'uploads/1643863468241.jpg' 
+    url - /api/v1/users/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-03T04:44:28.256Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-03T04:45:48.919Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T04:45:48.987Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'uploads/1643863566078.jpg' 
+    url - /api/v1/users/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-03T04:46:06.088Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-03T04:47:42.673Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T04:47:42.730Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'uploads/1643863672104.jpg' 
+    url - /api/v1/users/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-03T04:47:52.114Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-03T04:48:34.334Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T04:48:34.381Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'uploads/1643863736979.jpg' 
+    url - /api/v1/users/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-03T04:48:56.990Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-03T04:50:56.617Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T04:50:56.673Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'uploads/1643863872152.jpg' 
+    url - /api/v1/users/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-03T04:51:12.159Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-03T04:53:42.519Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T04:53:42.581Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'uploads/1643864536302.jpg' 
+    url - /api/v1/users/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-03T05:02:16.310Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-03T05:08:59.088Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T05:08:59.161Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'uploads/1643864969065.png' 
+    url - /api/v1/users/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-03T05:09:29.071Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-03T05:11:23.691Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T05:11:23.747Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'uploads/1643865144008.png' 
+    url - /api/v1/users/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-03T05:12:24.016Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-03T05:49:51.398Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T05:49:51.455Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'uploads/1643867400732.png' 
+    url - /api/v1/users/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-03T05:50:00.740Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-03T06:05:27.887Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T06:05:27.954Z"}
+error: 
+    status - 500 
+    message - ValidationError: book validation failed: image: Cast to string failed for value "{
+  fieldname: 'image',
+  originalname: 'Screenshot from 2022-02-03 09-33-14.png',
+  encoding: '7bit',
+  mimetype: 'image/png',
+  destination: 'uploads/',
+  filename: 'de87ec5d49914322b7a3eedfe2f07743',
+  path: 'uploads/de87ec5d49914322b7a3eedfe2f07743',
+  size: 139323
+}" (type Object) at path "image"
+    at model.Document.invalidate (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/document.js:2782:32)
+    at model.$set (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/document.js:1349:12)
+    at model.$set (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/document.js:1058:16)
+    at model.Document (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/document.js:148:12)
+    at model.Model (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js:106:12)
+    at new model (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js:4911:15)
+    at /home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js:3157:22
+    at /home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js:3193:7
+    at Array.forEach (<anonymous>)
+    at /home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js:3192:15
+    at /home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/index.js:1149:10)
+    at Function.create (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js:3127:23)
+    at /home/saeb/Book_Store/Book_Store/build/services/book.service.js:35:32 
+    url - /api/v1/users/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-03T06:06:03.773Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-03T06:07:52.349Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T06:07:52.402Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-03T06:08:51.639Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T06:08:51.692Z"}
+error: 
+    status - 500 
+    message - ValidationError: book validation failed: image: Cast to string failed for value "{
+  fieldname: 'image',
+  originalname: 'Screenshot from 2022-02-03 09-33-14.png',
+  encoding: '7bit',
+  mimetype: 'image/png',
+  destination: 'uploads/',
+  filename: 'f0b8a42e03cefa7f0a932fbc52281d22',
+  path: 'uploads/f0b8a42e03cefa7f0a932fbc52281d22',
+  size: 139323
+}" (type Object) at path "image"
+    at model.Document.invalidate (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/document.js:2782:32)
+    at model.$set (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/document.js:1349:12)
+    at model.$set (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/document.js:1058:16)
+    at model.Document (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/document.js:148:12)
+    at model.Model (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js:106:12)
+    at new model (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js:4911:15)
+    at /home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js:3157:22
+    at /home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js:3193:7
+    at Array.forEach (<anonymous>)
+    at /home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js:3192:15
+    at /home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/index.js:1149:10)
+    at Function.create (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js:3127:23)
+    at /home/saeb/Book_Store/Book_Store/build/services/book.service.js:35:32 
+    url - /api/v1/users/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-03T06:08:56.889Z"}
+error: 
+    status - 500 
+    message - ValidationError: book validation failed: image: Cast to string failed for value "{
+  fieldname: 'image',
+  originalname: 'Screenshot from 2022-02-03 09-29-44.png',
+  encoding: '7bit',
+  mimetype: 'image/png',
+  destination: 'uploads/',
+  filename: '288933f104c2bfc57439a412a466306e',
+  path: 'uploads/288933f104c2bfc57439a412a466306e',
+  size: 608320
+}" (type Object) at path "image"
+    at model.Document.invalidate (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/document.js:2782:32)
+    at model.$set (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/document.js:1349:12)
+    at model.$set (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/document.js:1058:16)
+    at model.Document (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/document.js:148:12)
+    at model.Model (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js:106:12)
+    at new model (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js:4911:15)
+    at /home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js:3157:22
+    at /home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js:3193:7
+    at Array.forEach (<anonymous>)
+    at /home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js:3192:15
+    at /home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/index.js:1149:10)
+    at Function.create (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js:3127:23)
+    at /home/saeb/Book_Store/Book_Store/build/services/book.service.js:35:32 
+    url - /api/v1/users/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-03T06:09:39.050Z"}
+error: 
+    status - 500 
+    message - ValidationError: book validation failed: image: Cast to string failed for value "{
+  fieldname: 'image',
+  originalname: 'Screenshot from 2022-02-03 09-29-44.png',
+  encoding: '7bit',
+  mimetype: 'image/png',
+  destination: 'uploads/',
+  filename: 'e32ef998a4722c681ed06515413420df',
+  path: 'uploads/e32ef998a4722c681ed06515413420df',
+  size: 608320
+}" (type Object) at path "image"
+    at model.Document.invalidate (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/document.js:2782:32)
+    at model.$set (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/document.js:1349:12)
+    at model.$set (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/document.js:1058:16)
+    at model.Document (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/document.js:148:12)
+    at model.Model (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js:106:12)
+    at new model (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js:4911:15)
+    at /home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js:3157:22
+    at /home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js:3193:7
+    at Array.forEach (<anonymous>)
+    at /home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js:3192:15
+    at /home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/index.js:1149:10)
+    at Function.create (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/model.js:3127:23)
+    at /home/saeb/Book_Store/Book_Store/build/services/book.service.js:35:32 
+    url - /api/v1/users/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-03T06:10:06.376Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-03T06:12:57.072Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T06:12:57.132Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-03T06:17:21.280Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T06:17:21.348Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-03T06:21:34.038Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T06:21:34.089Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T01:54:31.204Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T01:54:31.262Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.string(...).require is not a function
+    at bookValidator (/home/saeb/Book_Store/Book_Store/build/validators/book.Validator.js:18:40)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/route.js:137:13)
+    at verifyRole (/home/saeb/Book_Store/Book_Store/build/middlewares/auth.middleware.js:46:5)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/route.js:137:13)
+    at /home/saeb/Book_Store/Book_Store/build/middlewares/auth.middleware.js:98:17
+    at /home/saeb/Book_Store/Book_Store/node_modules/jsonwebtoken/verify.js:223:12
+    at getSecret (/home/saeb/Book_Store/Book_Store/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/home/saeb/Book_Store/Book_Store/node_modules/jsonwebtoken/verify.js:94:10)
+    at _callee$ (/home/saeb/Book_Store/Book_Store/build/middlewares/auth.middleware.js:90:38)
+    at tryCatch (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9) 
+    url - /api/v1/users/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-04T01:55:55.198Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T02:05:47.326Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T02:05:47.378Z"}
+error: 
+    status - 500 
+    message - ValidationError: "author" is required 
+    url - /api/v1/users/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-04T02:05:53.894Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T02:07:02.469Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T02:07:02.518Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T02:07:51.815Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T02:07:51.870Z"}
+error: 
+    status - 500 
+    message - ValidationError: "author" is required 
+    url - /api/v1/users/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-04T02:08:00.465Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T02:09:53.638Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T02:09:53.699Z"}
+error: 
+    status - 500 
+    message - ValidationError: "tilte" is required 
+    url - /api/v1/users/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-04T02:10:00.662Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T02:10:46.231Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T02:10:46.294Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T02:14:11.956Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T02:14:12.032Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T02:15:44.293Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T02:15:44.342Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T02:16:35.117Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T02:16:35.176Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T02:20:10.289Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T02:20:10.361Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T02:21:49.276Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T02:21:49.326Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T02:23:18.076Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T02:23:18.135Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T02:26:08.148Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T02:26:08.192Z"}
+error: 
+    status - 500 
+    message - TypeError: BookService.trashBook is not a function
+    at trashBook (/home/saeb/Book_Store/Book_Store/build/controllers/bookstore.controller.js:185:17)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/route.js:137:13)
+    at verifyRole (/home/saeb/Book_Store/Book_Store/build/middlewares/auth.middleware.js:46:5)
+    at Layer.handle [as handle_request] (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/route.js:137:13)
+    at /home/saeb/Book_Store/Book_Store/build/middlewares/auth.middleware.js:98:17
+    at /home/saeb/Book_Store/Book_Store/node_modules/jsonwebtoken/verify.js:223:12
+    at getSecret (/home/saeb/Book_Store/Book_Store/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/home/saeb/Book_Store/Book_Store/node_modules/jsonwebtoken/verify.js:94:10)
+    at _callee$ (/home/saeb/Book_Store/Book_Store/build/middlewares/auth.middleware.js:90:38)
+    at tryCatch (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9) 
+    url - /api/v1/users/trashbook/61fb742d63352a87405fadb7 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-02-04T02:27:37.348Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T02:32:28.550Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T02:32:28.614Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T02:36:31.984Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T02:36:32.032Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T02:42:23.425Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T02:42:23.491Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T02:42:50.098Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T02:42:50.138Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T02:44:26.711Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T02:44:26.756Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T02:45:43.059Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T02:45:43.115Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-05T03:04:28.921Z"}
+info: Connected to the database. {"timestamp":"2022-02-05T03:04:29.090Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-08T04:09:24.695Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T04:09:24.753Z"}
+error: 
+      status - 401
+      message - Authorization Failed 
+      url - /api/v1/users/findallbooks 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-02-08T04:11:54.135Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T04:32:49.008Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T04:32:49.075Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Books.users index: email_1 dup key: { email: "js4770526@gmail.com" } 
+      url - /api/v1/users/user 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-09T04:37:18.523Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:275:11)
+    at ServerResponse.writeHead (/home/saeb/Book_Store/Book_Store/node_modules/on-headers/index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:266:8)
+    at write_ (node:_http_outgoing:763:9)
+    at ServerResponse.end (node:_http_outgoing:852:5)
+    at ServerResponse.send (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/response.js:221:10)
+    at ServerResponse.json (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/response.js:267:15)
+    at appErrorHandler (/home/saeb/Book_Store/Book_Store/build/middlewares/error.middleware.js:43:26)
+    at Layer.handle_error (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:321:13)
+    at /home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:341:12)
+    at Immediate.next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:275:10)
+    at Immediate._onImmediate (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-09T04:37:18.527Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T04:41:16.221Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T04:41:16.274Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Books.users index: email_1 dup key: { email: "js4770526@gmail.com" } 
+      url - /api/v1/users/admin 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-09T04:42:38.004Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:275:11)
+    at ServerResponse.writeHead (/home/saeb/Book_Store/Book_Store/node_modules/on-headers/index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:266:8)
+    at write_ (node:_http_outgoing:763:9)
+    at ServerResponse.end (node:_http_outgoing:852:5)
+    at ServerResponse.send (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/response.js:221:10)
+    at ServerResponse.json (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/response.js:267:15)
+    at appErrorHandler (/home/saeb/Book_Store/Book_Store/build/middlewares/error.middleware.js:43:26)
+    at Layer.handle_error (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:321:13)
+    at /home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:341:12)
+    at Immediate.next (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:275:10)
+    at Immediate._onImmediate (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/router/index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/admin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-09T04:42:38.008Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T04:54:25.174Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T04:54:25.238Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T05:00:48.278Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T05:00:48.323Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T05:02:02.660Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T05:02:02.726Z"}
+error: 
+    status - 500 
+    message - ReferenceError: redis is not defined
+    at _callee2$ (/home/saeb/Book_Store/Book_Store/build/controllers/bookstore.controller.js:225:15)
+    at tryCatch (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/saeb/Book_Store/Book_Store/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/saeb/Book_Store/Book_Store/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/searchbook/Data%20Sc 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-09T05:06:51.676Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T05:07:16.891Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T05:07:16.938Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1319:16)
+    at listenInCluster (node:net:1367:12)
+    at Server.listen (node:net:1454:7)
+    at Function.listen (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/saeb/Book_Store/Book_Store/build/index.js:58:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)
+    at node:internal/main/run_main_module:17:47 {"date":"Thu Feb 10 2022 10:05:24 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-98,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[2.12,1.49,1.23],"uptime":89336.47},"process":{"argv":["/home/saeb/.nvm/versions/node/v16.8.0/bin/node","/home/saeb/Book_Store/Book_Store/build/index.js"],"cwd":"/home/saeb/Book_Store/Book_Store","execPath":"/home/saeb/.nvm/versions/node/v16.8.0/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18841820,"external":24879566,"heapTotal":58810368,"heapUsed":29589200,"rss":86355968},"pid":48239,"uid":1000,"version":"v16.8.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1319:16)\n    at listenInCluster (node:net:1367:12)\n    at Server.listen (node:net:1454:7)\n    at Function.listen (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/application.js:618:24)\n    at Object.<anonymous> (/home/saeb/Book_Store/Book_Store/build/index.js:58:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)\n    at node:internal/main/run_main_module:17:47","timestamp":"2022-02-10T04:35:24.808Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1319,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1367,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1454,"method":"listen","native":false},{"column":24,"file":"/home/saeb/Book_Store/Book_Store/node_modules/express/lib/application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"/home/saeb/Book_Store/Book_Store/build/index.js","function":null,"line":58,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":79,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1319:16)
+    at listenInCluster (node:net:1367:12)
+    at Server.listen (node:net:1454:7)
+    at Function.listen (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/saeb/Book_Store/Book_Store/build/index.js:58:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)
+    at node:internal/main/run_main_module:17:47 {"date":"Thu Feb 10 2022 10:05:58 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-98,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[2,1.53,1.25],"uptime":89370.17},"process":{"argv":["/home/saeb/.nvm/versions/node/v16.8.0/bin/node","/home/saeb/Book_Store/Book_Store/build/index.js"],"cwd":"/home/saeb/Book_Store/Book_Store","execPath":"/home/saeb/.nvm/versions/node/v16.8.0/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18857959,"external":25909590,"heapTotal":58548224,"heapUsed":29701920,"rss":86958080},"pid":48651,"uid":1000,"version":"v16.8.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1319:16)\n    at listenInCluster (node:net:1367:12)\n    at Server.listen (node:net:1454:7)\n    at Function.listen (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/application.js:618:24)\n    at Object.<anonymous> (/home/saeb/Book_Store/Book_Store/build/index.js:58:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)\n    at node:internal/main/run_main_module:17:47","timestamp":"2022-02-10T04:35:58.507Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1319,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1367,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1454,"method":"listen","native":false},{"column":24,"file":"/home/saeb/Book_Store/Book_Store/node_modules/express/lib/application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"/home/saeb/Book_Store/Book_Store/build/index.js","function":null,"line":58,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":79,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1319:16)
+    at listenInCluster (node:net:1367:12)
+    at Server.listen (node:net:1454:7)
+    at Function.listen (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/saeb/Book_Store/Book_Store/build/index.js:58:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)
+    at node:internal/main/run_main_module:17:47 {"date":"Thu Feb 10 2022 10:23:32 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-98,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[1.87,1.87,1.57],"uptime":90424.48},"process":{"argv":["/home/saeb/.nvm/versions/node/v16.8.0/bin/node","/home/saeb/Book_Store/Book_Store/build/index.js"],"cwd":"/home/saeb/Book_Store/Book_Store","execPath":"/home/saeb/.nvm/versions/node/v16.8.0/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18987699,"external":25956558,"heapTotal":58548224,"heapUsed":30505200,"rss":87228416},"pid":53815,"uid":1000,"version":"v16.8.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1319:16)\n    at listenInCluster (node:net:1367:12)\n    at Server.listen (node:net:1454:7)\n    at Function.listen (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/application.js:618:24)\n    at Object.<anonymous> (/home/saeb/Book_Store/Book_Store/build/index.js:58:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)\n    at node:internal/main/run_main_module:17:47","timestamp":"2022-02-10T04:53:32.820Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1319,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1367,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1454,"method":"listen","native":false},{"column":24,"file":"/home/saeb/Book_Store/Book_Store/node_modules/express/lib/application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"/home/saeb/Book_Store/Book_Store/build/index.js","function":null,"line":58,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":79,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1319:16)
+    at listenInCluster (node:net:1367:12)
+    at Server.listen (node:net:1454:7)
+    at Function.listen (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/saeb/Book_Store/Book_Store/build/index.js:58:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)
+    at node:internal/main/run_main_module:17:47 {"date":"Thu Feb 10 2022 10:24:03 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-98,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[1.71,1.82,1.56],"uptime":90454.96},"process":{"argv":["/home/saeb/.nvm/versions/node/v16.8.0/bin/node","/home/saeb/Book_Store/Book_Store/build/index.js"],"cwd":"/home/saeb/Book_Store/Book_Store","execPath":"/home/saeb/.nvm/versions/node/v16.8.0/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18993565,"external":25956558,"heapTotal":58548224,"heapUsed":30395120,"rss":86437888},"pid":54192,"uid":1000,"version":"v16.8.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1319:16)\n    at listenInCluster (node:net:1367:12)\n    at Server.listen (node:net:1454:7)\n    at Function.listen (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/application.js:618:24)\n    at Object.<anonymous> (/home/saeb/Book_Store/Book_Store/build/index.js:58:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)\n    at node:internal/main/run_main_module:17:47","timestamp":"2022-02-10T04:54:03.304Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1319,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1367,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1454,"method":"listen","native":false},{"column":24,"file":"/home/saeb/Book_Store/Book_Store/node_modules/express/lib/application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"/home/saeb/Book_Store/Book_Store/build/index.js","function":null,"line":58,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":79,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1319:16)
+    at listenInCluster (node:net:1367:12)
+    at Server.listen (node:net:1454:7)
+    at Function.listen (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/saeb/Book_Store/Book_Store/build/index.js:58:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)
+    at node:internal/main/run_main_module:17:47 {"date":"Thu Feb 10 2022 10:25:09 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-98,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[1.46,1.67,1.53],"uptime":90520.99},"process":{"argv":["/home/saeb/.nvm/versions/node/v16.8.0/bin/node","/home/saeb/Book_Store/Book_Store/build/index.js"],"cwd":"/home/saeb/Book_Store/Book_Store","execPath":"/home/saeb/.nvm/versions/node/v16.8.0/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18971315,"external":25956558,"heapTotal":58548224,"heapUsed":30378288,"rss":87080960},"pid":54622,"uid":1000,"version":"v16.8.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1319:16)\n    at listenInCluster (node:net:1367:12)\n    at Server.listen (node:net:1454:7)\n    at Function.listen (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/application.js:618:24)\n    at Object.<anonymous> (/home/saeb/Book_Store/Book_Store/build/index.js:58:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)\n    at node:internal/main/run_main_module:17:47","timestamp":"2022-02-10T04:55:09.333Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1319,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1367,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1454,"method":"listen","native":false},{"column":24,"file":"/home/saeb/Book_Store/Book_Store/node_modules/express/lib/application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"/home/saeb/Book_Store/Book_Store/build/index.js","function":null,"line":58,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":79,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-10T04:55:53.185Z"}
+info: Connected to the database. {"timestamp":"2022-02-10T04:55:53.223Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1319:16)
+    at listenInCluster (node:net:1367:12)
+    at Server.listen (node:net:1454:7)
+    at Function.listen (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/saeb/Book_Store/Book_Store/build/index.js:58:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)
+    at node:internal/main/run_main_module:17:47 {"date":"Thu Feb 10 2022 10:33:18 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-98,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0.81,1.08,1.31],"uptime":91010.22},"process":{"argv":["/home/saeb/.nvm/versions/node/v16.8.0/bin/node","/home/saeb/Book_Store/Book_Store/build/index.js"],"cwd":"/home/saeb/Book_Store/Book_Store","execPath":"/home/saeb/.nvm/versions/node/v16.8.0/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18979507,"external":25956558,"heapTotal":58548224,"heapUsed":30315640,"rss":86667264},"pid":60722,"uid":1000,"version":"v16.8.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1319:16)\n    at listenInCluster (node:net:1367:12)\n    at Server.listen (node:net:1454:7)\n    at Function.listen (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/application.js:618:24)\n    at Object.<anonymous> (/home/saeb/Book_Store/Book_Store/build/index.js:58:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)\n    at node:internal/main/run_main_module:17:47","timestamp":"2022-02-10T05:03:18.565Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1319,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1367,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1454,"method":"listen","native":false},{"column":24,"file":"/home/saeb/Book_Store/Book_Store/node_modules/express/lib/application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"/home/saeb/Book_Store/Book_Store/build/index.js","function":null,"line":58,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":79,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3001
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1319:16)
+    at listenInCluster (node:net:1367:12)
+    at Server.listen (node:net:1454:7)
+    at Function.listen (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/saeb/Book_Store/Book_Store/build/index.js:58:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)
+    at node:internal/main/run_main_module:17:47 {"date":"Thu Feb 10 2022 10:33:36 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-98,"port":3001,"syscall":"listen"},"exception":true,"os":{"loadavg":[1.32,1.18,1.34],"uptime":91028.07},"process":{"argv":["/home/saeb/.nvm/versions/node/v16.8.0/bin/node","/home/saeb/Book_Store/Book_Store/build/index.js"],"cwd":"/home/saeb/Book_Store/Book_Store","execPath":"/home/saeb/.nvm/versions/node/v16.8.0/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18979507,"external":23133391,"heapTotal":58548224,"heapUsed":30344232,"rss":86925312},"pid":60979,"uid":1000,"version":"v16.8.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3001\n    at Server.setupListenHandle [as _listen2] (node:net:1319:16)\n    at listenInCluster (node:net:1367:12)\n    at Server.listen (node:net:1454:7)\n    at Function.listen (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/application.js:618:24)\n    at Object.<anonymous> (/home/saeb/Book_Store/Book_Store/build/index.js:58:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)\n    at node:internal/main/run_main_module:17:47","timestamp":"2022-02-10T05:03:36.415Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1319,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1367,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1454,"method":"listen","native":false},{"column":24,"file":"/home/saeb/Book_Store/Book_Store/node_modules/express/lib/application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"/home/saeb/Book_Store/Book_Store/build/index.js","function":null,"line":58,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":79,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1319:16)
+    at listenInCluster (node:net:1367:12)
+    at Server.listen (node:net:1454:7)
+    at Function.listen (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/saeb/Book_Store/Book_Store/build/index.js:58:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)
+    at node:internal/main/run_main_module:17:47 {"date":"Thu Feb 10 2022 10:34:36 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-98,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[1.31,1.18,1.33],"uptime":91088.4},"process":{"argv":["/home/saeb/.nvm/versions/node/v16.8.0/bin/node","/home/saeb/Book_Store/Book_Store/build/index.js"],"cwd":"/home/saeb/Book_Store/Book_Store","execPath":"/home/saeb/.nvm/versions/node/v16.8.0/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18979507,"external":25956558,"heapTotal":58548224,"heapUsed":30394184,"rss":87298048},"pid":61448,"uid":1000,"version":"v16.8.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1319:16)\n    at listenInCluster (node:net:1367:12)\n    at Server.listen (node:net:1454:7)\n    at Function.listen (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/application.js:618:24)\n    at Object.<anonymous> (/home/saeb/Book_Store/Book_Store/build/index.js:58:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)\n    at node:internal/main/run_main_module:17:47","timestamp":"2022-02-10T05:04:36.743Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1319,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1367,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1454,"method":"listen","native":false},{"column":24,"file":"/home/saeb/Book_Store/Book_Store/node_modules/express/lib/application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"/home/saeb/Book_Store/Book_Store/build/index.js","function":null,"line":58,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":79,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-10T05:04:58.300Z"}
+info: Connected to the database. {"timestamp":"2022-02-10T05:04:58.345Z"}
+error: 
+      status - 401
+      message - Only Admin Had this Permissions 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-10T05:13:29.928Z"}
+error: 
+      status - 401
+      message - Only Admin Had this Permissions 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-10T05:14:15.086Z"}
+error: 
+      status - 401
+      message - Authorization Failed 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-10T05:14:31.589Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":bookId" (type string) at path "_id" for model "book"
+    at model.Query.exec (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/carts/addtocart/:bookId 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-02-10T05:16:14.621Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-10T05:23:55.973Z"}
+info: Connected to the database. {"timestamp":"2022-02-10T05:23:56.020Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-10T05:25:14.458Z"}
+info: Connected to the database. {"timestamp":"2022-02-10T05:25:14.503Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/wishlist/remove 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2022-02-10T05:34:34.334Z"}
+error: uncaughtException: swaggerUI is not defined
+ReferenceError: swaggerUI is not defined
+    at Object.<anonymous> (/home/saeb/Book_Store/Book_Store/build/index.js:55:47)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)
+    at node:internal/main/run_main_module:17:47 {"date":"Thu Feb 10 2022 18:57:21 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[4.45,2.71,2.02],"uptime":121249.91},"process":{"argv":["/home/saeb/.nvm/versions/node/v16.8.0/bin/node","/home/saeb/Book_Store/Book_Store/build/index.js"],"cwd":"/home/saeb/Book_Store/Book_Store","execPath":"/home/saeb/.nvm/versions/node/v16.8.0/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18979507,"external":25935789,"heapTotal":58548224,"heapUsed":30316344,"rss":86384640},"pid":92025,"uid":1000,"version":"v16.8.0"},"stack":"ReferenceError: swaggerUI is not defined\n    at Object.<anonymous> (/home/saeb/Book_Store/Book_Store/build/index.js:55:47)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)\n    at node:internal/main/run_main_module:17:47","timestamp":"2022-02-10T13:27:21.276Z","trace":[{"column":47,"file":"/home/saeb/Book_Store/Book_Store/build/index.js","function":null,"line":55,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":79,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-10T13:31:15.443Z"}
+info: Connected to the database. {"timestamp":"2022-02-10T13:31:15.481Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-10T13:43:04.771Z"}
+info: Connected to the database. {"timestamp":"2022-02-10T13:43:04.814Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-10T13:59:51.984Z"}
+info: Connected to the database. {"timestamp":"2022-02-10T13:59:52.030Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-10T14:44:13.260Z"}
+info: Connected to the database. {"timestamp":"2022-02-10T14:44:13.324Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/carts/placeorder 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2022-02-10T14:47:33.518Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/carts/placeorder 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2022-02-10T14:55:33.057Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/carts/placeorder 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2022-02-10T14:55:39.950Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-11T04:32:01.105Z"}
+info: Connected to the database. {"timestamp":"2022-02-11T04:32:01.164Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-11T04:32:33.657Z"}
+info: Connected to the database. {"timestamp":"2022-02-11T04:32:33.703Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/carts/placeorder 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2022-02-11T04:35:36.772Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":bookId" (type string) at path "_id" for model "book"
+    at model.Query.exec (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/saeb/Book_Store/Book_Store/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/carts/addtocart/:bookId 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-02-11T04:49:38.886Z"}
+error: 
+      status - 401
+      message - Authorization Failed 
+      url - /api/v1/carts/viewcart 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-02-11T04:51:37.495Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-11T04:59:11.091Z"}
+info: Connected to the database. {"timestamp":"2022-02-11T04:59:11.149Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-11T05:07:39.661Z"}
+info: Connected to the database. {"timestamp":"2022-02-11T05:07:39.710Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-11T05:16:38.583Z"}
+info: Connected to the database. {"timestamp":"2022-02-11T05:16:38.626Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-11T05:21:06.939Z"}
+info: Connected to the database. {"timestamp":"2022-02-11T05:21:06.980Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-11T05:41:53.278Z"}
+info: Connected to the database. {"timestamp":"2022-02-11T05:41:53.334Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-11T05:43:22.189Z"}
+info: Connected to the database. {"timestamp":"2022-02-11T05:43:22.258Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-11T05:54:13.388Z"}
+info: Connected to the database. {"timestamp":"2022-02-11T05:54:13.439Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-11T06:09:24.924Z"}
+info: Connected to the database. {"timestamp":"2022-02-11T06:09:24.992Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1319:16)
+    at listenInCluster (node:net:1367:12)
+    at Server.listen (node:net:1454:7)
+    at Function.listen (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/saeb/Book_Store/Book_Store/build/index.js:63:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)
+    at node:internal/main/run_main_module:17:47 {"date":"Fri Feb 11 2022 11:46:38 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-98,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[14.49,11.22,6.34],"uptime":181806.81},"process":{"argv":["/home/saeb/.nvm/versions/node/v16.8.0/bin/node","/home/saeb/Book_Store/Book_Store/build/index.js"],"cwd":"/home/saeb/Book_Store/Book_Store","execPath":"/home/saeb/.nvm/versions/node/v16.8.0/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18745176,"external":25030869,"heapTotal":65978368,"heapUsed":37990584,"rss":102686720},"pid":141740,"uid":1000,"version":"v16.8.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1319:16)\n    at listenInCluster (node:net:1367:12)\n    at Server.listen (node:net:1454:7)\n    at Function.listen (/home/saeb/Book_Store/Book_Store/node_modules/express/lib/application.js:618:24)\n    at Object.<anonymous> (/home/saeb/Book_Store/Book_Store/build/index.js:63:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)\n    at node:internal/main/run_main_module:17:47","timestamp":"2022-02-11T06:16:38.657Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1319,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1367,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1454,"method":"listen","native":false},{"column":24,"file":"/home/saeb/Book_Store/Book_Store/node_modules/express/lib/application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"/home/saeb/Book_Store/Book_Store/build/index.js","function":null,"line":63,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":79,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-11T06:17:17.593Z"}
+info: Connected to the database. {"timestamp":"2022-02-11T06:17:17.677Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-14T03:38:32.852Z"}
+info: Connected to the database. {"timestamp":"2022-02-14T03:38:37.408Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-14T03:53:08.920Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T03:53:09.219Z"}
+error: 
+      status - 401
+      message - Authorization Failed 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T03:53:09.256Z"}
+error: 
+    status - 500 
+    message - ValidationError: "productImage" is not allowed 
+    url - /api/v1/books/addbook 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-14T03:53:09.287Z"}
+error: uncaughtException: expected { Object (_events, _eventsCount, ...) } to have status code 401 but got 500
+AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 401 but got 500
+    at /home/saeb/Book_Store/Book_Store/tests/integration/book.test.js:98:27
+    at Test.Request.callback (/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js:716:12)
+    at /home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js:916:18
+    at IncomingMessage.<anonymous> (/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/parsers/json.js:19:7)
+    at IncomingMessage.emit (node:events:406:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {"date":"Mon Feb 14 2022 09:23:09 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":401,"message":"expected { Object (_events, _eventsCount, ...) } to have status code 401 but got 500","name":"AssertionError","showDiff":true,"stack":"AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 401 but got 500\n    at /home/saeb/Book_Store/Book_Store/tests/integration/book.test.js:98:27\n    at Test.Request.callback (/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js:716:12)\n    at /home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js:916:18\n    at IncomingMessage.<anonymous> (/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/parsers/json.js:19:7)\n    at IncomingMessage.emit (node:events:406:35)\n    at endReadableNT (node:internal/streams/readable:1343:12)\n    at processTicksAndRejections (node:internal/process/task_queues:83:21)"},"exception":true,"os":{"loadavg":[3.8,5.53,6.55],"uptime":432397.54},"process":{"argv":["/home/saeb/.nvm/versions/node/v16.8.0/bin/node","/home/saeb/Book_Store/Book_Store/node_modules/.bin/mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/integration/book.test.js","tests/integration/user.test.js","tests/unit/user.test.js"],"cwd":"/home/saeb/Book_Store/Book_Store","execPath":"/home/saeb/.nvm/versions/node/v16.8.0/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18459380,"external":20297845,"heapTotal":183091200,"heapUsed":156502080,"rss":236322816},"pid":164466,"uid":1000,"version":"v16.8.0"},"stack":"AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 401 but got 500\n    at /home/saeb/Book_Store/Book_Store/tests/integration/book.test.js:98:27\n    at Test.Request.callback (/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js:716:12)\n    at /home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js:916:18\n    at IncomingMessage.<anonymous> (/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/parsers/json.js:19:7)\n    at IncomingMessage.emit (node:events:406:35)\n    at endReadableNT (node:internal/streams/readable:1343:12)\n    at processTicksAndRejections (node:internal/process/task_queues:83:21)","timestamp":"2022-02-14T03:53:09.384Z","trace":[{"column":27,"file":"/home/saeb/Book_Store/Book_Store/tests/integration/book.test.js","function":null,"line":98,"method":null,"native":false},{"column":12,"file":"/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js","function":"Test.Request.callback","line":716,"method":"callback","native":false},{"column":18,"file":"/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js","function":null,"line":916,"method":null,"native":false},{"column":7,"file":"/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/parsers/json.js","function":null,"line":19,"method":null,"native":false},{"column":35,"file":"node:events","function":"IncomingMessage.emit","line":406,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"endReadableNT","line":1343,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":83,"method":null,"native":false}]}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-14T03:53:58.945Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T03:53:59.069Z"}
+error: 
+      status - 401
+      message - Authorization Failed 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T03:53:59.096Z"}
+error: 
+    status - 500 
+    message - ValidationError: "productImage" is not allowed 
+    url - /api/v1/books/addbook 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-14T03:53:59.117Z"}
+error: uncaughtException: expected { Object (_events, _eventsCount, ...) } to have status code 401 but got 500
+AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 401 but got 500
+    at /home/saeb/Book_Store/Book_Store/tests/integration/book.test.js:98:27
+    at Test.Request.callback (/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js:716:12)
+    at /home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js:916:18
+    at IncomingMessage.<anonymous> (/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/parsers/json.js:19:7)
+    at IncomingMessage.emit (node:events:406:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {"date":"Mon Feb 14 2022 09:23:59 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":401,"message":"expected { Object (_events, _eventsCount, ...) } to have status code 401 but got 500","name":"AssertionError","showDiff":true,"stack":"AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 401 but got 500\n    at /home/saeb/Book_Store/Book_Store/tests/integration/book.test.js:98:27\n    at Test.Request.callback (/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js:716:12)\n    at /home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js:916:18\n    at IncomingMessage.<anonymous> (/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/parsers/json.js:19:7)\n    at IncomingMessage.emit (node:events:406:35)\n    at endReadableNT (node:internal/streams/readable:1343:12)\n    at processTicksAndRejections (node:internal/process/task_queues:83:21)"},"exception":true,"os":{"loadavg":[3.54,5.2,6.38],"uptime":432447.28},"process":{"argv":["/home/saeb/.nvm/versions/node/v16.8.0/bin/node","/home/saeb/Book_Store/Book_Store/node_modules/.bin/mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/integration/book.test.js","tests/integration/user.test.js","tests/unit/user.test.js"],"cwd":"/home/saeb/Book_Store/Book_Store","execPath":"/home/saeb/.nvm/versions/node/v16.8.0/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18445270,"external":20293130,"heapTotal":182034432,"heapUsed":147725744,"rss":235589632},"pid":165378,"uid":1000,"version":"v16.8.0"},"stack":"AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 401 but got 500\n    at /home/saeb/Book_Store/Book_Store/tests/integration/book.test.js:98:27\n    at Test.Request.callback (/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js:716:12)\n    at /home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js:916:18\n    at IncomingMessage.<anonymous> (/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/parsers/json.js:19:7)\n    at IncomingMessage.emit (node:events:406:35)\n    at endReadableNT (node:internal/streams/readable:1343:12)\n    at processTicksAndRejections (node:internal/process/task_queues:83:21)","timestamp":"2022-02-14T03:53:59.127Z","trace":[{"column":27,"file":"/home/saeb/Book_Store/Book_Store/tests/integration/book.test.js","function":null,"line":98,"method":null,"native":false},{"column":12,"file":"/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js","function":"Test.Request.callback","line":716,"method":"callback","native":false},{"column":18,"file":"/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js","function":null,"line":916,"method":null,"native":false},{"column":7,"file":"/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/parsers/json.js","function":null,"line":19,"method":null,"native":false},{"column":35,"file":"node:events","function":"IncomingMessage.emit","line":406,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"endReadableNT","line":1343,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":83,"method":null,"native":false}]}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-14T03:57:03.689Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T03:57:03.800Z"}
+error: 
+      status - 401
+      message - Authorization Failed 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T03:57:03.861Z"}
+error: 
+    status - 500 
+    message - ValidationError: "productImage" is not allowed 
+    url - /api/v1/books/addbook 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-14T03:57:03.878Z"}
+error: uncaughtException: expected { Object (_events, _eventsCount, ...) } to have status code 401 but got 500
+AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 401 but got 500
+    at /home/saeb/Book_Store/Book_Store/tests/integration/book.test.js:98:27
+    at Test.Request.callback (/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js:716:12)
+    at /home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js:916:18
+    at IncomingMessage.<anonymous> (/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/parsers/json.js:19:7)
+    at IncomingMessage.emit (node:events:406:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {"date":"Mon Feb 14 2022 09:27:03 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":401,"message":"expected { Object (_events, _eventsCount, ...) } to have status code 401 but got 500","name":"AssertionError","showDiff":true,"stack":"AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 401 but got 500\n    at /home/saeb/Book_Store/Book_Store/tests/integration/book.test.js:98:27\n    at Test.Request.callback (/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js:716:12)\n    at /home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js:916:18\n    at IncomingMessage.<anonymous> (/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/parsers/json.js:19:7)\n    at IncomingMessage.emit (node:events:406:35)\n    at endReadableNT (node:internal/streams/readable:1343:12)\n    at processTicksAndRejections (node:internal/process/task_queues:83:21)"},"exception":true,"os":{"loadavg":[4.49,4.95,6.06],"uptime":432632.05},"process":{"argv":["/home/saeb/.nvm/versions/node/v16.8.0/bin/node","/home/saeb/Book_Store/Book_Store/node_modules/.bin/mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/integration/book.test.js","tests/integration/user.test.js","tests/unit/user.test.js"],"cwd":"/home/saeb/Book_Store/Book_Store","execPath":"/home/saeb/.nvm/versions/node/v16.8.0/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18445270,"external":22756271,"heapTotal":177299456,"heapUsed":148378624,"rss":230608896},"pid":167044,"uid":1000,"version":"v16.8.0"},"stack":"AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 401 but got 500\n    at /home/saeb/Book_Store/Book_Store/tests/integration/book.test.js:98:27\n    at Test.Request.callback (/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js:716:12)\n    at /home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js:916:18\n    at IncomingMessage.<anonymous> (/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/parsers/json.js:19:7)\n    at IncomingMessage.emit (node:events:406:35)\n    at endReadableNT (node:internal/streams/readable:1343:12)\n    at processTicksAndRejections (node:internal/process/task_queues:83:21)","timestamp":"2022-02-14T03:57:03.889Z","trace":[{"column":27,"file":"/home/saeb/Book_Store/Book_Store/tests/integration/book.test.js","function":null,"line":98,"method":null,"native":false},{"column":12,"file":"/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js","function":"Test.Request.callback","line":716,"method":"callback","native":false},{"column":18,"file":"/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js","function":null,"line":916,"method":null,"native":false},{"column":7,"file":"/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/parsers/json.js","function":null,"line":19,"method":null,"native":false},{"column":35,"file":"node:events","function":"IncomingMessage.emit","line":406,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"endReadableNT","line":1343,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":83,"method":null,"native":false}]}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-14T04:00:36.215Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T04:00:36.385Z"}
+error: 
+      status - 401
+      message - Authorization Failed 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T04:00:36.615Z"}
+error: 
+      status - 401
+      message - Authorization Failed 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T04:00:36.628Z"}
+error: uncaughtException: expected 'Authorization Failed' to deeply equal 'Only Admin Had this Permissions'
+AssertionError: expected 'Authorization Failed' to deeply equal 'Only Admin Had this Permissions'
+    at /home/saeb/Book_Store/Book_Store/tests/integration/book.test.js:101:14
+    at Test.Request.callback (/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js:716:12)
+    at /home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js:916:18
+    at IncomingMessage.<anonymous> (/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/parsers/json.js:19:7)
+    at IncomingMessage.emit (node:events:406:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {"date":"Mon Feb 14 2022 09:30:36 GMT+0530 (India Standard Time)","error":{"actual":"Authorization Failed","expected":"Only Admin Had this Permissions","message":"expected 'Authorization Failed' to deeply equal 'Only Admin Had this Permissions'","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 'Authorization Failed' to deeply equal 'Only Admin Had this Permissions'\n    at /home/saeb/Book_Store/Book_Store/tests/integration/book.test.js:101:14\n    at Test.Request.callback (/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js:716:12)\n    at /home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js:916:18\n    at IncomingMessage.<anonymous> (/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/parsers/json.js:19:7)\n    at IncomingMessage.emit (node:events:406:35)\n    at endReadableNT (node:internal/streams/readable:1343:12)\n    at processTicksAndRejections (node:internal/process/task_queues:83:21)"},"exception":true,"os":{"loadavg":[3.67,4.08,5.47],"uptime":432845.02},"process":{"argv":["/home/saeb/.nvm/versions/node/v16.8.0/bin/node","/home/saeb/Book_Store/Book_Store/node_modules/.bin/mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/integration/book.test.js","tests/integration/user.test.js","tests/unit/user.test.js"],"cwd":"/home/saeb/Book_Store/Book_Store","execPath":"/home/saeb/.nvm/versions/node/v16.8.0/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18445240,"external":20293249,"heapTotal":181895168,"heapUsed":147517968,"rss":235671552},"pid":175844,"uid":1000,"version":"v16.8.0"},"stack":"AssertionError: expected 'Authorization Failed' to deeply equal 'Only Admin Had this Permissions'\n    at /home/saeb/Book_Store/Book_Store/tests/integration/book.test.js:101:14\n    at Test.Request.callback (/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js:716:12)\n    at /home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js:916:18\n    at IncomingMessage.<anonymous> (/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/parsers/json.js:19:7)\n    at IncomingMessage.emit (node:events:406:35)\n    at endReadableNT (node:internal/streams/readable:1343:12)\n    at processTicksAndRejections (node:internal/process/task_queues:83:21)","timestamp":"2022-02-14T04:00:36.865Z","trace":[{"column":14,"file":"/home/saeb/Book_Store/Book_Store/tests/integration/book.test.js","function":null,"line":101,"method":null,"native":false},{"column":12,"file":"/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js","function":"Test.Request.callback","line":716,"method":"callback","native":false},{"column":18,"file":"/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js","function":null,"line":916,"method":null,"native":false},{"column":7,"file":"/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/parsers/json.js","function":null,"line":19,"method":null,"native":false},{"column":35,"file":"node:events","function":"IncomingMessage.emit","line":406,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"endReadableNT","line":1343,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":83,"method":null,"native":false}]}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-14T04:41:22.885Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T04:41:22.994Z"}
+error: 
+      status - 401
+      message - Authorization Failed 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T04:41:23.206Z"}
+error: 
+      status - 401
+      message - Authorization Failed 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T04:41:23.225Z"}
+error: uncaughtException: expected 'Authorization Failed' to deeply equal 'Only Admin Had this Permissions'
+AssertionError: expected 'Authorization Failed' to deeply equal 'Only Admin Had this Permissions'
+    at /home/saeb/Book_Store/Book_Store/tests/integration/book.test.js:101:14
+    at Test.Request.callback (/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js:716:12)
+    at /home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js:916:18
+    at IncomingMessage.<anonymous> (/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/parsers/json.js:19:7)
+    at IncomingMessage.emit (node:events:406:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {"date":"Mon Feb 14 2022 10:11:23 GMT+0530 (India Standard Time)","error":{"actual":"Authorization Failed","expected":"Only Admin Had this Permissions","message":"expected 'Authorization Failed' to deeply equal 'Only Admin Had this Permissions'","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 'Authorization Failed' to deeply equal 'Only Admin Had this Permissions'\n    at /home/saeb/Book_Store/Book_Store/tests/integration/book.test.js:101:14\n    at Test.Request.callback (/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js:716:12)\n    at /home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js:916:18\n    at IncomingMessage.<anonymous> (/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/parsers/json.js:19:7)\n    at IncomingMessage.emit (node:events:406:35)\n    at endReadableNT (node:internal/streams/readable:1343:12)\n    at processTicksAndRejections (node:internal/process/task_queues:83:21)"},"exception":true,"os":{"loadavg":[4.1,2.95,2.59],"uptime":435291.04},"process":{"argv":["/home/saeb/.nvm/versions/node/v16.8.0/bin/node","/home/saeb/Book_Store/Book_Store/node_modules/.bin/mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/integration/book.test.js","tests/integration/user.test.js","tests/unit/user.test.js"],"cwd":"/home/saeb/Book_Store/Book_Store","execPath":"/home/saeb/.nvm/versions/node/v16.8.0/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18461327,"external":20293249,"heapTotal":178888704,"heapUsed":149068328,"rss":232493056},"pid":181939,"uid":1000,"version":"v16.8.0"},"stack":"AssertionError: expected 'Authorization Failed' to deeply equal 'Only Admin Had this Permissions'\n    at /home/saeb/Book_Store/Book_Store/tests/integration/book.test.js:101:14\n    at Test.Request.callback (/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js:716:12)\n    at /home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js:916:18\n    at IncomingMessage.<anonymous> (/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/parsers/json.js:19:7)\n    at IncomingMessage.emit (node:events:406:35)\n    at endReadableNT (node:internal/streams/readable:1343:12)\n    at processTicksAndRejections (node:internal/process/task_queues:83:21)","timestamp":"2022-02-14T04:41:23.287Z","trace":[{"column":14,"file":"/home/saeb/Book_Store/Book_Store/tests/integration/book.test.js","function":null,"line":101,"method":null,"native":false},{"column":12,"file":"/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js","function":"Test.Request.callback","line":716,"method":"callback","native":false},{"column":18,"file":"/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js","function":null,"line":916,"method":null,"native":false},{"column":7,"file":"/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/parsers/json.js","function":null,"line":19,"method":null,"native":false},{"column":35,"file":"node:events","function":"IncomingMessage.emit","line":406,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"endReadableNT","line":1343,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":83,"method":null,"native":false}]}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-14T04:41:46.826Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T04:41:46.991Z"}
+error: 
+      status - 401
+      message - Authorization Failed 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T04:41:47.032Z"}
+error: 
+      status - 401
+      message - Authorization Failed 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T04:41:47.050Z"}
+error: uncaughtException: expected 'Authorization Failed' to deeply equal 'Only Admin Had this Permissions'
+AssertionError: expected 'Authorization Failed' to deeply equal 'Only Admin Had this Permissions'
+    at /home/saeb/Book_Store/Book_Store/tests/integration/book.test.js:101:14
+    at Test.Request.callback (/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js:716:12)
+    at /home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js:916:18
+    at IncomingMessage.<anonymous> (/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/parsers/json.js:19:7)
+    at IncomingMessage.emit (node:events:406:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {"date":"Mon Feb 14 2022 10:11:47 GMT+0530 (India Standard Time)","error":{"actual":"Authorization Failed","expected":"Only Admin Had this Permissions","message":"expected 'Authorization Failed' to deeply equal 'Only Admin Had this Permissions'","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 'Authorization Failed' to deeply equal 'Only Admin Had this Permissions'\n    at /home/saeb/Book_Store/Book_Store/tests/integration/book.test.js:101:14\n    at Test.Request.callback (/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js:716:12)\n    at /home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js:916:18\n    at IncomingMessage.<anonymous> (/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/parsers/json.js:19:7)\n    at IncomingMessage.emit (node:events:406:35)\n    at endReadableNT (node:internal/streams/readable:1343:12)\n    at processTicksAndRejections (node:internal/process/task_queues:83:21)"},"exception":true,"os":{"loadavg":[6.27,3.52,2.79],"uptime":435314.82},"process":{"argv":["/home/saeb/.nvm/versions/node/v16.8.0/bin/node","/home/saeb/Book_Store/Book_Store/node_modules/.bin/mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/integration/book.test.js","tests/integration/user.test.js","tests/unit/user.test.js"],"cwd":"/home/saeb/Book_Store/Book_Store","execPath":"/home/saeb/.nvm/versions/node/v16.8.0/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18437048,"external":22129704,"heapTotal":156573696,"heapUsed":125436792,"rss":210923520},"pid":182392,"uid":1000,"version":"v16.8.0"},"stack":"AssertionError: expected 'Authorization Failed' to deeply equal 'Only Admin Had this Permissions'\n    at /home/saeb/Book_Store/Book_Store/tests/integration/book.test.js:101:14\n    at Test.Request.callback (/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js:716:12)\n    at /home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js:916:18\n    at IncomingMessage.<anonymous> (/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/parsers/json.js:19:7)\n    at IncomingMessage.emit (node:events:406:35)\n    at endReadableNT (node:internal/streams/readable:1343:12)\n    at processTicksAndRejections (node:internal/process/task_queues:83:21)","timestamp":"2022-02-14T04:41:47.070Z","trace":[{"column":14,"file":"/home/saeb/Book_Store/Book_Store/tests/integration/book.test.js","function":null,"line":101,"method":null,"native":false},{"column":12,"file":"/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js","function":"Test.Request.callback","line":716,"method":"callback","native":false},{"column":18,"file":"/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js","function":null,"line":916,"method":null,"native":false},{"column":7,"file":"/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/parsers/json.js","function":null,"line":19,"method":null,"native":false},{"column":35,"file":"node:events","function":"IncomingMessage.emit","line":406,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"endReadableNT","line":1343,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":83,"method":null,"native":false}]}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-14T04:53:37.626Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-14T04:54:18.523Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T04:54:18.597Z"}
+error: 
+      status - 401
+      message - Authorization Failed 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T04:54:18.633Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-14T04:59:10.603Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T04:59:10.731Z"}
+error: 
+      status - 401
+      message - Authorization Failed 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T04:59:11.051Z"}
+error: 
+      status - 401
+      message - Authorization Failed 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T04:59:11.067Z"}
+error: uncaughtException: expected 'Authorization Failed' to deeply equal 'Only Admin Had this Permissions'
+AssertionError: expected 'Authorization Failed' to deeply equal 'Only Admin Had this Permissions'
+    at /home/saeb/Book_Store/Book_Store/tests/integration/book.test.js:102:14
+    at Test.Request.callback (/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js:716:12)
+    at /home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js:916:18
+    at IncomingMessage.<anonymous> (/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/parsers/json.js:19:7)
+    at IncomingMessage.emit (node:events:406:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {"date":"Mon Feb 14 2022 10:29:11 GMT+0530 (India Standard Time)","error":{"actual":"Authorization Failed","expected":"Only Admin Had this Permissions","message":"expected 'Authorization Failed' to deeply equal 'Only Admin Had this Permissions'","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 'Authorization Failed' to deeply equal 'Only Admin Had this Permissions'\n    at /home/saeb/Book_Store/Book_Store/tests/integration/book.test.js:102:14\n    at Test.Request.callback (/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js:716:12)\n    at /home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js:916:18\n    at IncomingMessage.<anonymous> (/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/parsers/json.js:19:7)\n    at IncomingMessage.emit (node:events:406:35)\n    at endReadableNT (node:internal/streams/readable:1343:12)\n    at processTicksAndRejections (node:internal/process/task_queues:83:21)"},"exception":true,"os":{"loadavg":[4.59,5.16,4.23],"uptime":436358.87},"process":{"argv":["/home/saeb/.nvm/versions/node/v16.8.0/bin/node","/home/saeb/Book_Store/Book_Store/node_modules/.bin/mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/integration/book.test.js","tests/integration/user.test.js","tests/unit/user.test.js"],"cwd":"/home/saeb/Book_Store/Book_Store","execPath":"/home/saeb/.nvm/versions/node/v16.8.0/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":19070032,"external":20710347,"heapTotal":177840128,"heapUsed":151614264,"rss":231342080},"pid":185418,"uid":1000,"version":"v16.8.0"},"stack":"AssertionError: expected 'Authorization Failed' to deeply equal 'Only Admin Had this Permissions'\n    at /home/saeb/Book_Store/Book_Store/tests/integration/book.test.js:102:14\n    at Test.Request.callback (/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js:716:12)\n    at /home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js:916:18\n    at IncomingMessage.<anonymous> (/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/parsers/json.js:19:7)\n    at IncomingMessage.emit (node:events:406:35)\n    at endReadableNT (node:internal/streams/readable:1343:12)\n    at processTicksAndRejections (node:internal/process/task_queues:83:21)","timestamp":"2022-02-14T04:59:11.115Z","trace":[{"column":14,"file":"/home/saeb/Book_Store/Book_Store/tests/integration/book.test.js","function":null,"line":102,"method":null,"native":false},{"column":12,"file":"/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js","function":"Test.Request.callback","line":716,"method":"callback","native":false},{"column":18,"file":"/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js","function":null,"line":916,"method":null,"native":false},{"column":7,"file":"/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/parsers/json.js","function":null,"line":19,"method":null,"native":false},{"column":35,"file":"node:events","function":"IncomingMessage.emit","line":406,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"endReadableNT","line":1343,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":83,"method":null,"native":false}]}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-14T05:02:46.457Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T05:02:46.517Z"}
+error: 
+      status - 401
+      message - Authorization Failed 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T05:02:46.551Z"}
+error: 
+      status - 401
+      message - Authorization Failed 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T05:02:46.562Z"}
+error: uncaughtException: expected 'Authorization Failed' to deeply equal 'Only Admin Had this Permissions'
+AssertionError: expected 'Authorization Failed' to deeply equal 'Only Admin Had this Permissions'
+    at /home/saeb/Book_Store/Book_Store/tests/integration/book.test.js:102:14
+    at Test.Request.callback (/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js:716:12)
+    at /home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js:916:18
+    at IncomingMessage.<anonymous> (/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/parsers/json.js:19:7)
+    at IncomingMessage.emit (node:events:406:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {"date":"Mon Feb 14 2022 10:32:46 GMT+0530 (India Standard Time)","error":{"actual":"Authorization Failed","expected":"Only Admin Had this Permissions","message":"expected 'Authorization Failed' to deeply equal 'Only Admin Had this Permissions'","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 'Authorization Failed' to deeply equal 'Only Admin Had this Permissions'\n    at /home/saeb/Book_Store/Book_Store/tests/integration/book.test.js:102:14\n    at Test.Request.callback (/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js:716:12)\n    at /home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js:916:18\n    at IncomingMessage.<anonymous> (/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/parsers/json.js:19:7)\n    at IncomingMessage.emit (node:events:406:35)\n    at endReadableNT (node:internal/streams/readable:1343:12)\n    at processTicksAndRejections (node:internal/process/task_queues:83:21)"},"exception":true,"os":{"loadavg":[2.78,3.76,3.85],"uptime":436574.33},"process":{"argv":["/home/saeb/.nvm/versions/node/v16.8.0/bin/node","/home/saeb/Book_Store/Book_Store/node_modules/.bin/mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/integration/book.test.js","tests/integration/user.test.js","tests/unit/user.test.js"],"cwd":"/home/saeb/Book_Store/Book_Store","execPath":"/home/saeb/.nvm/versions/node/v16.8.0/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":19061840,"external":20702155,"heapTotal":177840128,"heapUsed":150071896,"rss":230764544},"pid":186035,"uid":1000,"version":"v16.8.0"},"stack":"AssertionError: expected 'Authorization Failed' to deeply equal 'Only Admin Had this Permissions'\n    at /home/saeb/Book_Store/Book_Store/tests/integration/book.test.js:102:14\n    at Test.Request.callback (/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js:716:12)\n    at /home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js:916:18\n    at IncomingMessage.<anonymous> (/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/parsers/json.js:19:7)\n    at IncomingMessage.emit (node:events:406:35)\n    at endReadableNT (node:internal/streams/readable:1343:12)\n    at processTicksAndRejections (node:internal/process/task_queues:83:21)","timestamp":"2022-02-14T05:02:46.574Z","trace":[{"column":14,"file":"/home/saeb/Book_Store/Book_Store/tests/integration/book.test.js","function":null,"line":102,"method":null,"native":false},{"column":12,"file":"/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js","function":"Test.Request.callback","line":716,"method":"callback","native":false},{"column":18,"file":"/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js","function":null,"line":916,"method":null,"native":false},{"column":7,"file":"/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/parsers/json.js","function":null,"line":19,"method":null,"native":false},{"column":35,"file":"node:events","function":"IncomingMessage.emit","line":406,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"endReadableNT","line":1343,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":83,"method":null,"native":false}]}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-14T05:05:08.677Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T05:05:08.741Z"}
+error: 
+      status - 401
+      message - Authorization Failed 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T05:05:08.781Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-14T05:29:55.969Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-14T05:33:45.495Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-14T05:34:31.985Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-14T05:37:20.824Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-14T05:38:45.248Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-14T06:02:45.534Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-14T06:05:58.084Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-14T06:06:33.490Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-14T06:09:19.216Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-14T06:13:16.225Z"}
+error: 
+      status - 401
+      message - Authorization Failed 
+      url - /api/v1/books/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T06:13:16.472Z"}
+error: uncaughtException: expect is not defined
+ReferenceError: expect is not defined
+    at /home/saeb/Book_Store/Book_Store/tests/integration/book.test.js:32:17
+    at Test.Request.callback (/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js:716:12)
+    at /home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js:916:18
+    at IncomingMessage.<anonymous> (/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/parsers/json.js:19:7)
+    at IncomingMessage.emit (node:events:406:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {"date":"Mon Feb 14 2022 11:43:16 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[6.17,4.59,3.82],"uptime":440804.39},"process":{"argv":["/home/saeb/.nvm/versions/node/v16.8.0/bin/node","/home/saeb/Book_Store/Book_Store/node_modules/.bin/mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/integration/book.test.js","tests/integration/user.test.js","tests/unit/user.test.js"],"cwd":"/home/saeb/Book_Store/Book_Store","execPath":"/home/saeb/.nvm/versions/node/v16.8.0/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18628164,"external":20476173,"heapTotal":173367296,"heapUsed":141668536,"rss":227954688},"pid":195611,"uid":1000,"version":"v16.8.0"},"stack":"ReferenceError: expect is not defined\n    at /home/saeb/Book_Store/Book_Store/tests/integration/book.test.js:32:17\n    at Test.Request.callback (/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js:716:12)\n    at /home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js:916:18\n    at IncomingMessage.<anonymous> (/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/parsers/json.js:19:7)\n    at IncomingMessage.emit (node:events:406:35)\n    at endReadableNT (node:internal/streams/readable:1343:12)\n    at processTicksAndRejections (node:internal/process/task_queues:83:21)","timestamp":"2022-02-14T06:13:16.638Z","trace":[{"column":17,"file":"/home/saeb/Book_Store/Book_Store/tests/integration/book.test.js","function":null,"line":32,"method":null,"native":false},{"column":12,"file":"/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js","function":"Test.Request.callback","line":716,"method":"callback","native":false},{"column":18,"file":"/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/index.js","function":null,"line":916,"method":null,"native":false},{"column":7,"file":"/home/saeb/Book_Store/Book_Store/node_modules/superagent/lib/node/parsers/json.js","function":null,"line":19,"method":null,"native":false},{"column":35,"file":"node:events","function":"IncomingMessage.emit","line":406,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"endReadableNT","line":1343,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":83,"method":null,"native":false}]}

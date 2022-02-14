@@ -1,0 +1,863 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "0.0.1",
+        "title": "Book Store App",
+        "description": "one-stop-onlinestore for textbooks, spirit gear, supplies & more",
+        "license": {
+            "name": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+        }
+    },
+    "host": "localhost:3000",
+    "basePath": "/api/v1/",
+    "tags": [
+        {
+            "name": "Book store",
+            "description": "Online Book mart"
+        }
+    ],
+    "schemes": ["http"],
+    "consumes": ["application/json"],
+    "produces": ["application/json"],
+    "paths": {
+        "/users/admin": {
+            "post": {
+                "tags": ["Admin Registration"],
+                "description": "Register as Admin to manage Book store",
+                "parameters": [
+                    {
+                        "name": "Admin Registration",
+                        "in": "body",
+                        "description": "Admin details",
+                        "schema": {
+                            "$ref": "#/definitions/registrationinfo"
+                        }
+                    }
+                ],
+                "produces": ["application/json"],
+                "schema": {
+                    "$ref": "#/definitions/registrationinfo"
+                },
+                "responses": {
+                    "201": {
+                        "description": "Registration successfull"
+                    },
+                    "409": {
+                        "description": "Email Already Exist"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        },
+        "/users/user": {
+            "post": {
+                "tags": ["User Registration"],
+                "description": "Register as User to buy Books",
+                "parameters": [
+                    {
+                        "name": "User Registration",
+                        "in": "body",
+                        "description": "User details",
+                        "schema": {
+                            "$ref": "#/definitions/registrationinfo"
+                        }
+                    }
+                ],
+                "produces": ["application/json"],
+                "schema": {
+                    "$ref": "#/definitions/registrationinfo"
+                },
+                "responses": {
+                    "201": {
+                        "description": "Registration successfull"
+                    },
+                    "409": {
+                        "description": "Email Already Exist"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        },
+        "/users/login": {
+            "post": {
+                "tags": ["Login"],
+                "description": "Login to book store",
+                "parameters": [
+                    {
+                        "name": "Login",
+                        "in": "body",
+                        "description": "Login details",
+                        "schema": {
+                            "$ref": "#/definitions/logininfo"
+                        }
+                    }
+                ],
+                "produces": ["application/json"],
+                "schema": {
+                    "$ref": "#/definitions/logininfo"
+                },
+                "responses": {
+                    "200": {
+                        "description": "Login Successful"
+                    },
+                    "404": {
+                        "description": "Not Registered Yet"
+                    },
+                    "401": {
+                        "description": "Incorrect Password"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        },
+        "/users/forgotpassword": {
+            "post": {
+                "tags": ["ForgotPassword"],
+                "description": "Forgot your password? Don't worry, you can reset it..!",
+                "parameters": [
+                    {
+                        "name": "Forgot password",
+                        "in": "body",
+                        "description": "Email details",
+                        "schema": {
+                            "$ref": "#/definitions/emailinfo"
+                        }
+                    }
+                ],
+                "produces": ["application/json"],
+                "schema": {
+                    "$ref": "#/definitions/emailinfo"
+                },
+                "responses": {
+                    "200": {
+                        "description": "Reset-code Sent to your Email"
+                    },
+                    "404": {
+                        "description": "Not Registered Yet"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        },
+        "/users/resetpassword": {
+            "post": {
+                "tags": ["ResetPassword"],
+                "description": "Reset your password with reset-code, which sended to your registered email",
+                "parameters": [
+                    {
+                        "name": "Reset password",
+                        "in": "body",
+                        "description": "reset details",
+                        "schema": {
+                            "$ref": "#/definitions/resetinfo"
+                        }
+                    }
+                ],
+                "produces": ["application/json"],
+                "schema": {
+                    "$ref": "#/definitions/resetinfo"
+                },
+                "responses": {
+                    "200": {
+                        "description": "Password reset successfull"
+                    },
+                    "404": {
+                        "description": "Reset-code is expired, Request new Reset-code"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        },
+        "/books/addbook": {
+            "post": {
+                "tags": ["Add Book"],
+                "description": "Add New Book To the Store",
+                "parameters": [
+                    {
+                        "in": "header",
+                        "name": "Authorization",
+                        "description": "Token for Authentication..! Please Enter a token along with bearer [bearer ]..",
+                        "schema": {
+                            "type": "string",
+                            "required": true
+                        }
+                    },
+                    {
+                        "in": "formData",
+                        "name": "productImage",
+                        "description": "Upload the file",
+                        "type": "file",
+                        "required": true
+                    },
+                    {
+                        "in": "formData",
+                        "name": "author",
+                        "description": "Author of the book",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "in": "formData",
+                        "name": "title",
+                        "description": "Title of the book",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "in": "formData",
+                        "name": "description",
+                        "description": "Description of the book",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "in": "formData",
+                        "name": "quantity",
+                        "description": "Quantity of the book",
+                        "type": "number",
+                        "required": true
+                    },
+                    {
+                        "in": "formData",
+                        "name": "price",
+                        "description": "Price of the book",
+                        "type": "number",
+                        "required": true
+                    }
+                    
+                ],
+                "produces": ["application/json"],
+                "responses": {
+                    "201": {
+                        "description": "Book added successfully"
+                    },
+                    "400": {
+                        "description": "Authorization token is required"
+                    },
+                    "401": {
+                        "description": "Authorization Failed (or) Only Admin Had this Permissions"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        },
+        "/books/findallbooks": {
+            "get": {
+                "tags": ["Get All Books"],
+                "description": "Get all available books",
+                "parameters": [],
+                "produces": ["application/json"],
+                
+                "responses": {
+                    "200": {
+                        "description": "Available books"
+                    },
+                    "404": {
+                        "description": "No book found"
+                    }
+                }
+            }
+        },
+        "/books/updatebook/{bookId}": {
+            "put": {
+                "tags": ["Update Book"],
+                "description": "Update Books in the store",
+                "parameters": [
+                    {
+                        "in": "header",
+                        "name": "Authorization",
+                        "description": "Token for Authentication..! Please Enter a token along with bearer [bearer ]..",
+                        "schema": {
+                            "type": "string",
+                            "required": true
+                        }
+                    },
+                    {
+                        "in": "path",
+                        "name": "bookId",
+                        "description": "Enter Book Id",
+                        "schema": {
+                            "type": "string",
+                            "required": true
+                        }
+                    },
+                    {
+                        "in": "formData",
+                        "name": "productImage",
+                        "description": "Upload the file",
+                        "type": "file",
+                        "required": true
+                    },
+                    {
+                        "in": "formData",
+                        "name": "author",
+                        "description": "Author of the book",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "in": "formData",
+                        "name": "title",
+                        "description": "Title of the book",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "in": "formData",
+                        "name": "description",
+                        "description": "Description of the book",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "in": "formData",
+                        "name": "quantity",
+                        "description": "Quantity of the book",
+                        "type": "number",
+                        "required": true
+                    },
+                    {
+                        "in": "formData",
+                        "name": "price",
+                        "description": "Price of the book",
+                        "type": "number",
+                        "required": true
+                    }
+                ],
+                "produces": ["application/json"],
+                "schema": {
+                    "$ref": "#/definitions/bookinfo"
+                },
+                "responses": {
+                    "200": {
+                        "description": "Book updated successfully"
+                    },
+                    "400": {
+                        "description": "Authorization token is required"
+                    },
+                    "401": {
+                        "description": "Authorization Failed (or) Only Admin Had this Permissions"
+                    },
+                    "404": {
+                        "description": "Book Not Found"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        },
+        "/books/trashbook/{bookId}": {
+            "delete": {
+                "tags": ["Delete Book"],
+                "description": "Delete Books in the store",
+                "parameters": [
+                    {
+                        "in": "header",
+                        "name": "Authorization",
+                        "description": "Token for Authentication..! Please Enter a token along with bearer [bearer ]..",
+                        "schema": {
+                            "type": "string",
+                            "required": true
+                        }
+                    },
+                    {
+                        "in": "path",
+                        "name": "bookId",
+                        "description": "Give book details",
+                        "schema": {
+                            "type":"string",
+                            "required":true
+                        }
+                    }
+                ],
+                "produces": ["application/json"],
+                "responses": {
+                    "200": {
+                        "description": "Book deleted successfully"
+                    },
+                    "400": {
+                        "description": "Authorization token is required"
+                    },
+                    "401": {
+                        "description": "Authorization Failed (or) Only Admin Had this Permissions"
+                    },
+                    "404": {
+                        "description": "Book Not Found"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        },
+
+        "/books/searchbook/{title}": {
+            "get": {
+                "tags": ["Search Book"],
+                "description": "Search book by Title",
+                "parameters": [
+                    {
+                        "in": "path",
+                        "name": "title",
+                        "description": "Search by title of the book",
+                        "schema": {
+                            "type": "string",
+                            "required": true
+                        }
+                    }
+                ],
+                "produces": ["application/json"],
+                "responses": {
+                    "200": {
+                        "description": "Search results"
+                    },
+                    "404": {
+                        "description": "No book found"
+                    }
+                }
+            }
+        },
+
+        "/carts/addtocart": {
+            "put": {
+                "tags": ["Add To Cart"],
+                "description": "Want to purchase? Add to the cart..",
+                "parameters": [
+                    {
+                        "in": "header",
+                        "name": "Authorization",
+                        "description": "Token for Authentication..! Please Enter a token along with bearer [bearer ]..",
+                        "schema": {
+                            "type": "string",
+                            "required": true
+                        }
+                    },
+                    {
+                        "in": "body",
+                        "name": "book info",
+                        "description": "Give book details",
+                        "schema": {
+                            "$ref": "#/definitions/cartinfo"
+                        }
+                    }
+                ],
+                "produces": ["application/json"],
+                "schema": {
+                    "$ref": "#/definitions/cartinfo"
+                },
+                "responses": {
+                    "200": {
+                        "description": "Book added into cart successfully (or) stock is not available, please reduce order quantity"
+                    },
+                    "307": {
+                        "description": "Sold Out"
+                    },
+                    "400": {
+                        "description": "Authorization token is required"
+                    },
+                    "401": {
+                        "description": "Authorization Failed"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        },
+        "/carts/removefromcart/{bookId}": {
+            "put": {
+                "tags": ["Remove From Cart"],
+                "description": "Want to remove books from cart? ok ..",
+                "parameters": [
+                    {
+                        "in": "header",
+                        "name": "Authorization",
+                        "description": "Token for Authentication..! Please Enter a token along with bearer [bearer ]..",
+                        "schema": {
+                            "type": "string",
+                            "required": true
+                        }
+                    },
+                    {
+                        "in": "path",
+                        "name": "bookId",
+                        "description": "Give book details",
+                        "schema": {
+                            "type": "string",
+                            "required": true
+                        }
+                    }
+                ],
+                "produces": ["application/json"],
+                "schema": {
+                    "$ref": "#/definitions/cartinfo"
+                },
+                "responses": {
+                    "200": {
+                        "description": "Book removed from cart Successfully"
+                    },
+                    "400": {
+                        "description": "Authorization token is required"
+                    },
+                    "401": {
+                        "description": "Authorization Failed"
+                    },
+                    "404": {
+                        "description": "Cart Not Found (or) Book Not Found"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        },
+        "/carts/viewcart": {
+            "get": {
+                "tags": ["View Cart"],
+                "description": "Want to view cart? ok ..",
+                "parameters": [
+                    {
+                        "in": "header",
+                        "name": "Authorization",
+                        "description": "Token for Authentication..! Please Enter a token along with bearer [bearer ]..",
+                        "schema": {
+                            "type": "string",
+                            "required": true
+                        }
+                    }
+                ],
+                "produces": ["application/json"],
+                "responses": {
+                    "200": {
+                        "description": "Your cart.."
+                    },
+                    "400": {
+                        "description": "Authorization token is required"
+                    },
+                    "401": {
+                        "description": "Authorization Failed"
+                    },
+                    "404": {
+                        "description": "Cart Not Found (or) Your cart is empty!"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        },
+        "/carts/placeorder": {
+            "put": {
+                "tags": ["Place Order"],
+                "description": "Want to place order..?",
+                "parameters": [
+                    {
+                        "in": "header",
+                        "name": "Authorization",
+                        "description": "Token for Authentication..! Please Enter a token along with bearer [bearer ]..",
+                        "schema": {
+                            "type": "string",
+                            "required": true
+                        }
+                    },
+                    {
+                        "in": "body",
+                        "name": "order details",
+                        "description": "Please give order info",
+                        "schema": {
+                            "type":"string",
+                            "required":true
+                        }
+                    }
+                ],
+                "produces": ["application/json"],
+                "schema": {
+                    "$ref": "#/definitions/orderinfo"
+                },
+                "responses": {
+                    "200": {
+                        "description": "Order placed successfully, You will get order conirmation email shortly"
+                    },
+                    "400": {
+                        "description": "Authorization token is required"
+                    },
+                    "401": {
+                        "description": "Authorization Failed"
+                    },
+                    "404": {
+                        "description": "Cart Not Found (or) Your cart is empty!"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        },
+        "/wishlist/add": {
+            "post": {
+                "tags": ["Add To Wishlist"],
+                "description": "You liked this book, Add to your wishlist..",
+                "parameters": [
+                    {
+                        "in": "header",
+                        "name": "Authorization",
+                        "description": "Token for Authentication..! Please Enter a token along with bearer [bearer ]..",
+                        "schema": {
+                            "type": "string",
+                            "required": true
+                        }
+                    },
+                    {
+                        "in": "body",
+                        "name": "book info",
+                        "description": "Give book details",
+                        "schema": {
+                            "$ref": "#/definitions/wishlistinfo"
+                        }
+                    }
+                ],
+                "produces": ["application/json"],
+                "schema": {
+                    "$ref": "#/definitions/wishlistinfo"
+                },
+                "responses": {
+                    "200": {
+                        "description": "Book added into wishlist successfully"
+                    },
+                    "400": {
+                        "description": "Authorization token is required"
+                    },
+                    "401": {
+                        "description": "Authorization Failed"
+                    },
+                    "404": {
+                        "description": "Book Not Found"
+                    },
+                    "409": {
+                        "description": "Book already in wishlist"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        },
+        "/wishlist/remove": {
+            "put": {
+                "tags": ["Remove from Wishlist"],
+                "description": "You unliked this book, Remove from your wishlist..",
+                "parameters": [
+                    {
+                        "in": "header",
+                        "name": "Authorization",
+                        "description": "Token for Authentication..! Please Enter a token along with bearer [bearer ]..",
+                        "schema": {
+                            "type": "string",
+                            "required": true
+                        }
+                    },
+                    {
+                        "in": "body",
+                        "name": "book info",
+                        "description": "Give book details",
+                        "schema": {
+                            "$ref": "#/definitions/wishlistinfo"
+                        }
+                    }
+                ],
+                "produces": ["application/json"],
+                "schema": {
+                    "$ref": "#/definitions/wishlistinfo"
+                },
+                "responses": {
+                    "200": {
+                        "description": "Book removed from wishlist successfully"
+                    },
+                    "400": {
+                        "description": "Authorization token is required"
+                    },
+                    "401": {
+                        "description": "Authorization Failed"
+                    },
+                    "404": {
+                        "description": "Book not found in wishlist (or) Wishlist not available or empty"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        },
+        "/wishlist/mywishlist": {
+            "get": {
+                "tags": ["My Wishlist"],
+                "description": "Want to view your Wishlist? ok ..",
+                "parameters": [
+                    {
+                        "in": "header",
+                        "name": "Authorization",
+                        "description": "Token for Authentication..! Please Enter a token along with bearer [bearer ]..",
+                        "schema": {
+                            "type": "string",
+                            "required": true
+                        }
+                    }
+                ],
+                "produces": ["application/json"],
+                "responses": {
+                    "200": {
+                        "description": "Your Wishlist.."
+                    },
+                    "400": {
+                        "description": "Authorization token is required"
+                    },
+                    "401": {
+                        "description": "Authorization Failed"
+                    },
+                    "404": {
+                        "description": "Wishlist not available or empty"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "registrationinfo": {
+            "type": "object",
+            "properties": {
+                "firstName": {
+                    "type": "string",
+                    "description": "First Name"
+                },
+                "lastName": {
+                    "type": "string",
+                    "description": "Last Name"
+                },
+                "email": {
+                    "type": "string",
+                    "description": "Email ID"
+                },
+                "password": {
+                    "type": "string",
+                    "description": "Password"
+                }
+            }
+        },
+        "logininfo": {
+            "type": "object",
+            "properties": {
+                "email": {
+                    "type": "string",
+                    "description": "Email ID"
+                },
+                "password": {
+                    "type": "string",
+                    "description": "Password"
+                }
+            }
+        },
+        "emailinfo": {
+            "type": "object",
+            "properties": {
+                "email": {
+                    "type": "string",
+                    "description": "Email ID"
+                }
+            }
+        },
+        "resetinfo": {
+            "type": "object",
+            "properties": {
+                "email": {
+                    "type": "string",
+                    "description": "Email ID"
+                },
+                "newPassword": {
+                    "type": "string",
+                    "description": "new Password"
+                },
+                "resetcode": {
+                    "type": "string",
+                    "description": "got through your registered email"
+                }
+            }
+        },
+        "bookinfo": {
+            "type":"object",
+            "properties": {
+                "author": {
+                    "type": "string",
+                    "description": "author name"
+                },
+                "title": {
+                    "type": "string",
+                    "description": "book title"
+                },
+                "description": {
+                    "type": "string",
+                    "description": "book description"
+                },
+                "quantity": {
+                    "type": "number",
+                    "description": "number of books"
+                },
+                "price": {
+                    "type": "number",
+                    "description": "price of book"
+                }
+            }
+        },
+        "cartinfo": {
+            "type": "object",
+            "properties": {
+                "bookId": {
+                    "type": "string",
+                    "description": "Give bookId"
+                },
+                "quantity": {
+                    "type": "number",
+                    "description": "How many books you want to buy or remove"
+                }
+            }
+        },
+        "orderinfo": {
+            "type": "object",
+            "properties": {
+                "address": {
+                    "type": "string",
+                    "description": "Delivery Address"
+                },
+                "paymentmode": {
+                    "type": "string",
+                    "description": "Payment mode Card/COD"
+                }
+            }
+        },
+        "wishlistinfo": {
+            "type": "object",
+            "properties": {
+                "bookId": {
+                    "type": "string",
+                    "description": "Give bookId"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,188 @@
+info: ::1 - - [14/Feb/2022:03:46:31 +0000] "POST /api/v1/users/login HTTP/1.1" 200 260 "-" "PostmanRuntime/7.28.4"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:03:53:09 +0000] "POST /api/v1/books/addbook HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:03:53:09 +0000] "POST /api/v1/books/addbook HTTP/1.1" 401 45 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:03:53:09 +0000] "POST /api/v1/books/addbook HTTP/1.1" 500 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:03:53:09 +0000] "POST /api/v1/books/addbook HTTP/1.1" 500 75 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:03:53:09 +0000] "GET /api/v1/books/findallbooks HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:03:53:09 +0000] "PUT /api/v1/books/updatebook/61e809e80811ed1178039e5e HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:03:53:09 +0000] "PUT /api/v1/books/updatebook/61e809e80811ed1178039e5e HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:03:53:09 +0000] "GET /api/v1/books/searchbook/first%20book%20title HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:03:53:09 +0000] "GET /api/v1/books/searchbook/first%20book HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:03:53:09 +0000] "DELETE /api/v1/books/deletebook/61e809e80811ed1178039e5e HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:03:53:09 +0000] "DELETE /api/v1/books/deletebook/61e809e80811ed1178039e5e HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:03:53:09 +0000] "POST /api/v1/users/admin HTTP/1.1" 500 182 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:03:53:09 +0000] "POST /api/v1/users/admin HTTP/1.1" 500 182 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:03:53:59 +0000] "POST /api/v1/books/addbook HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:03:53:59 +0000] "POST /api/v1/books/addbook HTTP/1.1" 401 45 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:03:53:59 +0000] "POST /api/v1/books/addbook HTTP/1.1" 500 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:03:53:59 +0000] "POST /api/v1/books/addbook HTTP/1.1" 500 75 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:03:53:59 +0000] "GET /api/v1/books/findallbooks HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:03:53:59 +0000] "PUT /api/v1/books/updatebook/61e809e80811ed1178039e5e HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:03:53:59 +0000] "PUT /api/v1/books/updatebook/61e809e80811ed1178039e5e HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:03:53:59 +0000] "GET /api/v1/books/searchbook/first%20book%20title HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:03:53:59 +0000] "GET /api/v1/books/searchbook/first%20book HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:03:53:59 +0000] "DELETE /api/v1/books/deletebook/61e809e80811ed1178039e5e HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:03:53:59 +0000] "DELETE /api/v1/books/deletebook/61e809e80811ed1178039e5e HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:03:57:03 +0000] "POST /api/v1/books/addbook HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:03:57:03 +0000] "POST /api/v1/books/addbook HTTP/1.1" 401 45 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:03:57:03 +0000] "POST /api/v1/books/addbook HTTP/1.1" 500 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:03:57:03 +0000] "POST /api/v1/books/addbook HTTP/1.1" 500 75 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:03:57:03 +0000] "GET /api/v1/books/findallbooks HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:03:57:03 +0000] "PUT /api/v1/books/updatebook/61e809e80811ed1178039e5e HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:03:57:03 +0000] "PUT /api/v1/books/updatebook/61e809e80811ed1178039e5e HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:03:57:03 +0000] "GET /api/v1/books/searchbook/first%20book%20title HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:03:57:03 +0000] "GET /api/v1/books/searchbook/first%20book HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:03:57:03 +0000] "DELETE /api/v1/books/deletebook/61e809e80811ed1178039e5e HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:03:57:03 +0000] "DELETE /api/v1/books/deletebook/61e809e80811ed1178039e5e HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:04:00:36 +0000] "POST /api/v1/books/addbook HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:04:00:36 +0000] "POST /api/v1/books/addbook HTTP/1.1" 401 45 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:04:00:36 +0000] "POST /api/v1/books/addbook HTTP/1.1" 401 45 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:04:00:36 +0000] "POST /api/v1/books/addbook HTTP/1.1" 401 45 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:04:00:36 +0000] "GET /api/v1/books/findallbooks HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:04:00:36 +0000] "PUT /api/v1/books/updatebook/61e809e80811ed1178039e5e HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:04:00:36 +0000] "PUT /api/v1/books/updatebook/61e809e80811ed1178039e5e HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:04:00:36 +0000] "GET /api/v1/books/searchbook/first%20book%20title HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:04:00:36 +0000] "GET /api/v1/books/searchbook/first%20book HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:04:00:36 +0000] "DELETE /api/v1/books/deletebook/61e809e80811ed1178039e5e HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:04:00:36 +0000] "DELETE /api/v1/books/deletebook/61e809e80811ed1178039e5e HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:04:41:23 +0000] "POST /api/v1/books/addbook HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:04:41:23 +0000] "POST /api/v1/books/addbook HTTP/1.1" 401 45 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:04:41:23 +0000] "POST /api/v1/books/addbook HTTP/1.1" 401 45 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:04:41:23 +0000] "POST /api/v1/books/addbook HTTP/1.1" 401 45 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:04:41:23 +0000] "GET /api/v1/books/findallbooks HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:04:41:23 +0000] "PUT /api/v1/books/updatebook/61e809e80811ed1178039e5e HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:04:41:23 +0000] "PUT /api/v1/books/updatebook/61e809e80811ed1178039e5e HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:04:41:23 +0000] "GET /api/v1/books/searchbook/first%20book%20title HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:04:41:23 +0000] "GET /api/v1/books/searchbook/first%20book HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:04:41:23 +0000] "DELETE /api/v1/books/deletebook/61e809e80811ed1178039e5e HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:04:41:23 +0000] "DELETE /api/v1/books/deletebook/61e809e80811ed1178039e5e HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:04:41:47 +0000] "POST /api/v1/books/addbook HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:04:41:47 +0000] "POST /api/v1/books/addbook HTTP/1.1" 401 45 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:04:41:47 +0000] "POST /api/v1/books/addbook HTTP/1.1" 401 45 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:04:41:47 +0000] "POST /api/v1/books/addbook HTTP/1.1" 401 45 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:04:41:47 +0000] "GET /api/v1/books/findallbooks HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:04:41:47 +0000] "PUT /api/v1/books/updatebook/61e809e80811ed1178039e5e HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:04:41:47 +0000] "PUT /api/v1/books/updatebook/61e809e80811ed1178039e5e HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:04:41:47 +0000] "GET /api/v1/books/searchbook/first%20book%20title HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:04:41:47 +0000] "GET /api/v1/books/searchbook/first%20book HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:04:41:47 +0000] "DELETE /api/v1/books/deletebook/61e809e80811ed1178039e5e HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:04:41:47 +0000] "DELETE /api/v1/books/deletebook/61e809e80811ed1178039e5e HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:04:54:18 +0000] "POST /api/v1/books/addbook HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:04:54:18 +0000] "POST /api/v1/books/addbook HTTP/1.1" 401 45 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:04:59:10 +0000] "POST /api/v1/books/addbook HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:04:59:11 +0000] "POST /api/v1/books/addbook HTTP/1.1" 401 45 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:04:59:11 +0000] "POST /api/v1/books/addbook HTTP/1.1" 401 45 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:04:59:11 +0000] "POST /api/v1/books/addbook HTTP/1.1" 401 45 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:04:59:11 +0000] "GET /api/v1/books/findallbooks HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:04:59:11 +0000] "PUT /api/v1/books/updatebook/61e809e80811ed1178039e5e HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:04:59:11 +0000] "GET /api/v1/books/searchbook/first%20book%20title HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:04:59:11 +0000] "GET /api/v1/books/searchbook/first%20book HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:04:59:11 +0000] "DELETE /api/v1/books/trashbook/61e809e80811ed1178039e5e HTTP/1.1" 401 45 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:04:59:11 +0000] "DELETE /api/v1/books/trashbook/61e809e80811ed1178039e5e HTTP/1.1" 401 45 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:05:02:46 +0000] "POST /api/v1/books/addbook HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:05:02:46 +0000] "POST /api/v1/books/addbook HTTP/1.1" 401 45 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:05:02:46 +0000] "POST /api/v1/books/addbook HTTP/1.1" 401 45 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:05:02:46 +0000] "POST /api/v1/books/addbook HTTP/1.1" 401 45 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:05:02:46 +0000] "GET /api/v1/books/findallbooks HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:05:02:46 +0000] "PUT /api/v1/books/updatebook/61fb7473a08f4189f6e5852b HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:05:02:46 +0000] "GET /api/v1/books/searchbook/Move%20Like%20u%20want HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:05:02:46 +0000] "GET /api/v1/books/searchbook/first%20book HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:05:02:46 +0000] "DELETE /api/v1/books/trashbook/62049f58b4d275f0c8829722 HTTP/1.1" 401 45 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:05:02:46 +0000] "DELETE /api/v1/books/trashbook/62049f58b4d275f0c8829722 HTTP/1.1" 401 45 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:05:05:08 +0000] "POST /api/v1/books/addbook HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:05:05:08 +0000] "POST /api/v1/books/addbook HTTP/1.1" 401 45 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Feb/2022:06:13:16 +0000] "POST /api/v1/books/addbook HTTP/1.1" 401 45 "-" "node-superagent/3.8.3"
+

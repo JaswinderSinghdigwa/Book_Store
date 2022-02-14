@@ -1,4 +1,7 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable quotes */
 /* eslint-disable eqeqeq */
+/* eslint-disable prettier/prettier */
 import HttpStatus from 'http-status-codes';
 import * as UserService from '../services/user.service';
 
@@ -8,7 +11,7 @@ import * as UserService from '../services/user.service';
  * @param {object} res - response object
  * @param {Function} next
  */
-export const getAllUsers = (req, res, next) => {
+export const getAllUsers = async (req, res, next) => {
   try {
     UserService.getAllUsers()
       .then((data) => {
@@ -63,19 +66,20 @@ export const newUser = (req, res, next) => {
  * @param {object} res - response object
  * @param {Function} next
  */
-export const login = async (req, res, next) => {
+ export const login = async (req, res, next) => {
   try {
     const info = {
       email: req.body.email,
       password: req.body.password
-    };
+    }
     const data = await UserService.login(info);
-    if (data == 'Not Registered Yet') {
+    if (data == "Not Registered Yet") {
       res.status(HttpStatus.NOT_FOUND).json({
         code: HttpStatus.NOT_FOUND,
         message: 'Not Registered Yet'
       });
-    } else if (data == 'Incorrect Password') {
+    // eslint-disable-next-line quotes
+    } else if (data == "Incorrect Password") {
       res.status(HttpStatus.UNAUTHORIZED).json({
         code: HttpStatus.UNAUTHORIZED,
         message: 'Incorrect Password'
@@ -91,3 +95,64 @@ export const login = async (req, res, next) => {
     next(error);
   }
 };
+
+/**
+ * Controller to ForgotPassword
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+ export const forgotPassword = (req, res, next) => {
+  try {
+    const info = {
+      email: req.body.email
+    }
+    UserService.forgotPassword(info)
+    .then(data=>{
+        res.status(HttpStatus.OK).json({
+          code: HttpStatus.OK,
+          message: 'Reset-code Sent to your Email'
+        });
+    }).catch(error =>{
+      if(error=="Not Registered Yet")
+      res.status(HttpStatus.NOT_FOUND).json({
+        code: HttpStatus.NOT_FOUND,
+        message: 'Not Registered Yet'
+      });
+    })
+  } catch (error) {
+    next(error);
+  }
+};
+
+/**
+ * Controller to ResetPassword
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+ export const resetPassword = async (req, res, next) => {
+  try {
+    const info = {
+      email: req.body.email,
+      newPassword: req.body.newPassword,
+      resetcode: req.body.resetcode
+    }
+    UserService.resetPassword(info)
+    .then((data)=>{
+      return res.status(HttpStatus.OK).json({
+        code: HttpStatus.OK,
+        message: 'Password reset successfull'
+      });
+    }).catch((error) => {
+      if(error === "code expired"){
+        res.status(HttpStatus.NOT_FOUND).json({
+          code: HttpStatus.NOT_FOUND,
+          message: 'Reset-code is expired, Request new Reset-code'
+        });
+      }
+    });
+  } catch (error) {
+    next(error);
+  }
+}

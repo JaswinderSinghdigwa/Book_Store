@@ -1,0 +1,136 @@
+info: ::1 - - [02/Feb/2022:03:39:41 +0000] "POST /api/v1/users/login HTTP/1.1" 200 268 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:03:40:41 +0000] "POST /api/v1/users/addbook HTTP/1.1" 500 56 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:03:41:23 +0000] "POST /api/v1/users/addbook HTTP/1.1" 500 56 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:03:41:52 +0000] "POST /api/v1/users/addbook HTTP/1.1" 401 56 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:03:42:29 +0000] "POST /api/v1/users/addbook HTTP/1.1" 201 167 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:03:52:30 +0000] "GET /api/v1/users/findallbooks HTTP/1.1" 404 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:03:53:28 +0000] "GET /api/v1/users/findallbooks HTTP/1.1" 200 223 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:04:10:49 +0000] "POST /api/v1/users/updatebook/61f9fda4f30113381f08381a HTTP/1.1" 500 54 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:04:11:30 +0000] "POST /api/v1/users/updatebook/61f9fda4f30113381f08381a HTTP/1.1" 500 75 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:04:12:32 +0000] "POST /api/v1/users/updatebook/61f9fda4f30113381f08381a HTTP/1.1" 200 231 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:04:25:10 +0000] "GET /api/v1/users/findallbooks HTTP/1.1" 200 223 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:04:26:20 +0000] "POST /api/v1/users/updatebook/61f9fda4f30113381f08381a HTTP/1.1" 200 231 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:04:30:08 +0000] "POST /api/v1/users/updatebook/61f9fda4f30113381f08381a HTTP/1.1" 200 231 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:04:35:18 +0000] "POST /api/v1/users/updatebook/61f9fda4f30113381f08381a HTTP/1.1" 404 39 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:04:36:08 +0000] "GET /api/v1/users/findallbooks HTTP/1.1" 200 223 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:04:36:23 +0000] "POST /api/v1/users/updatebook/61f9fda4f30113381f08381a HTTP/1.1" 404 39 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:04:36:34 +0000] "POST /api/v1/users/updatebook/61f9fda4f30113381f08381a HTTP/1.1" 404 39 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:04:37:22 +0000] "POST /api/v1/users/updatebook/61f9fda4f30113381f08381a HTTP/1.1" 404 50 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:04:39:34 +0000] "POST /api/v1/users/updatebook/61f9fda4f30113381f08381a HTTP/1.1" 200 231 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:04:41:29 +0000] "POST /api/v1/users/updatebook/61f9fda4f30113381f08381a HTTP/1.1" 200 231 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:04:47:24 +0000] "POST /api/v1/users/updatebook/61f9fda4f30113381f08381a HTTP/1.1" 200 231 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:04:50:43 +0000] "POST /api/v1/users/updatebook/61f9fda4f30113381f08381a HTTP/1.1" 200 231 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:04:59:55 +0000] "POST /api/v1/users/updatebook/61f9fda4f30113381f08381a HTTP/1.1" 200 231 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:05:00:48 +0000] "POST /api/v1/users/updatebook/61f9fda4f30113381f08381a HTTP/1.1" 200 228 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:05:01:28 +0000] "POST /api/v1/users/updatebook/61f9fda4f30113381f08381a HTTP/1.1" 200 228 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:05:04:55 +0000] "POST /api/v1/users/updatebook/61f9fda4f30113381f08381a HTTP/1.1" 200 230 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:05:06:29 +0000] "POST /api/v1/users/updatebook/61f9fda4f30113381f08381a HTTP/1.1" 200 231 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:05:09:35 +0000] "POST /api/v1/users/updatebook/61f9fda4f30113381f08381a HTTP/1.1" 200 230 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:05:10:47 +0000] "POST /api/v1/users/updatebook/61f9fda4f30113381f08381a HTTP/1.1" 404 50 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:05:11:29 +0000] "POST /api/v1/users/updatebook/61f9fda4f30113381f08381a HTTP/1.1" 404 50 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:05:11:31 +0000] "POST /api/v1/users/updatebook/61f9fda4f30113381f08381a HTTP/1.1" 404 50 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:05:12:12 +0000] "POST /api/v1/users/updatebook/61f9fda4f30113381f08381a HTTP/1.1" 404 50 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:05:13:31 +0000] "POST /api/v1/users/updatebook/61f9fda4f30113381f08381a HTTP/1.1" 200 232 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:05:16:03 +0000] "POST /api/v1/users/updatebook/61f9fda4f30113381f08381a HTTP/1.1" 200 232 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:05:17:21 +0000] "POST /api/v1/users/updatebook/61f9fda4f30113381f08381a HTTP/1.1" 200 232 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:05:18:57 +0000] "POST /api/v1/users/updatebook/61f9fda4f30113381f08381a HTTP/1.1" 200 232 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:05:19:45 +0000] "POST /api/v1/users/updatebook/61f9fda4f30113381f08381a HTTP/1.1" 200 231 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:05:21:24 +0000] "POST /api/v1/users/updatebook/61f9fda4f30113381f08381a HTTP/1.1" 200 231 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:05:21:44 +0000] "POST /api/v1/users/updatebook/61f9fda4f30113381f08381a HTTP/1.1" 200 231 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:05:22:52 +0000] "POST /api/v1/users/updatebook/61f9fda4f30113381f08381a HTTP/1.1" 200 231 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:05:23:40 +0000] "POST /api/v1/users/updatebook/61f9fda4f30113381f08381a HTTP/1.1" 200 231 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:05:25:06 +0000] "POST /api/v1/users/updatebook/61f9fda4f30113381f08381a HTTP/1.1" 200 231 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:05:46:11 +0000] "POST /api/v1/users/addbook HTTP/1.1" 201 175 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:05:46:19 +0000] "GET /api/v1/users/findallbooks HTTP/1.1" 200 405 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:05:51:46 +0000] "DELETE /api/v1/users/trashbook/61f9fda4f30113381f08381a HTTP/1.1" 404 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:05:53:22 +0000] "DELETE /api/v1/users/trashbook/61f9fda4f30113381f08381a HTTP/1.1" 404 39 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:05:54:28 +0000] "DELETE /api/v1/users/trashbook/61f9fda4f30113381f08381a HTTP/1.1" 404 39 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:05:55:20 +0000] "DELETE /api/v1/users/trashbook/61f9fda4f30113381f08381a HTTP/1.1" 404 39 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:06:02:13 +0000] "DELETE /api/v1/users/trashbook/61f9fda4f30113381f08381a HTTP/1.1" 200 50 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:06:36:56 +0000] "POST /api/v1/users/updatebook/61f9fda4f30113381f08381a HTTP/1.1" - - "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:06:37:43 +0000] "POST /api/v1/users/updatebook/61fa1aa38e2d229d03c60449 HTTP/1.1" 200 239 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:06:40:23 +0000] "POST /api/v1/users/updatebook/61fa1aa38e2d229d03c60449 HTTP/1.1" 200 231 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:06:41:13 +0000] "POST /api/v1/users/updatebook/61fa1aa38e2d229d03c60449 HTTP/1.1" 200 231 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:06:42:55 +0000] "POST /api/v1/users/updatebook/61fa1aa38e2d229d03c60449 HTTP/1.1" 200 231 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:08:43:22 +0000] "POST /api/v1/users/updatebook/61fa1aa38e2d229d03c60449 HTTP/1.1" 200 235 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:08:44:43 +0000] "GET /api/v1/users/findallbooks HTTP/1.1" 400 56 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:08:45:35 +0000] "GET /api/v1/users/findallbooks HTTP/1.1" 200 220 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:08:46:36 +0000] "GET /api/v1/users/findbookbyid/61fa1aa38e2d229d03c60449 HTTP/1.1" 500 139 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:08:47:26 +0000] "GET /api/v1/users/findbookbyid/61fa1aa38e2d229d03c60449 HTTP/1.1" 500 139 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:08:47:48 +0000] "GET /api/v1/users/findbookbyid/61fa1aa38e2d229d03c60449 HTTP/1.1" 200 68 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:08:48:11 +0000] "GET /api/v1/users/findbookbyid/61fa1aa38e2d229d03c60449 HTTP/1.1" 200 68 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:08:48:50 +0000] "GET /api/v1/users/findbookbyid/61fa1aa38e2d229d03c60449 HTTP/1.1" 200 68 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:08:49:58 +0000] "GET /api/v1/users/findbookbyid/61fa1aa38e2d229d03c60449 HTTP/1.1" 200 68 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:08:50:10 +0000] "GET /api/v1/users/findbookbyid/61fa1aa38e2d229d03c60449 HTTP/1.1" 200 68 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:08:50:50 +0000] "GET /api/v1/users/findbookbyid/:bookId HTTP/1.1" 200 68 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:08:51:12 +0000] "GET /api/v1/users/findbookbyid/:bookid HTTP/1.1" 200 68 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:08:51:36 +0000] "GET /api/v1/users/findbookbyid/:bookid HTTP/1.1" 500 129 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [02/Feb/2022:08:52:53 +0000] "GET /api/v1/users/findbookbyid/61fa1aa38e2d229d03c60449 HTTP/1.1" 200 234 "-" "PostmanRuntime/7.28.4"
+
